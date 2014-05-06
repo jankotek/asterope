@@ -693,7 +693,7 @@ public class TiledImageHDU extends BinaryTableHDU {
 
             for (TileDescriptor td : tl) {
                 try {
-                    Object tileData = getTile(td);
+                    Object tileData = TiledImageHDU.this.getTile(td);
                     insertTile(tileData, td.corner, td.size, array, corners, lengths, cName, 0);
                 } catch (FitsException e) {
                     throw new IOException("FITS error reading tile", e);
