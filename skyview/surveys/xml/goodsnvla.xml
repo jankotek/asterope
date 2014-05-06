@@ -1,0 +1,53 @@
+
+<Survey>
+   <ShortName>GOODSNVLA,GOODS: VLA North,GOODS N VLA</ShortName>
+   <Name>GOODS North Observations with the VLA</Name>
+   <Description>
+      <![CDATA[
+      A combination of VLA measurements in all four configurations
+      combined to generate a very deep image of the GOODS North region.  A total of about 150
+      hours of VLA time was used.  Data are sensitive to about 5 microJanskies in
+      the central region.  A total of 1230 discrete sources where found in the 40'x40' region.
+      ]]>
+   </Description>
+   <Settings>
+      <Scale> 0.000138888888 </Scale>
+   </Settings>
+   <MetaTable>
+      <Provenance>
+    <![CDATA[
+  VLA Observations taken by Morrison et al. as provided
+  through their <a href=http://www.ifa.hawaii.edu/~morrison/GOODSN/>web site</a>.
+  ]]>
+      </Provenance>
+      <Copyright>Public domain</Copyright>
+      <Regime>Radio</Regime>
+      <Frequency> 1.4 GHz </Frequency>
+      <Bandpass> 1.365-1.435 GHz </Bandpass>
+      <PixelScale> 0.5" </PixelScale>
+      <PixelUnits>Jy/beam</PixelUnits>
+      <NSurvey> 1 </NSurvey>
+      <Resolution>1.7" </Resolution>
+      <Coverage> North GOODS field ~0.01% of sky</Coverage>
+      <Projection> Sin </Projection>
+      <Coordinates> ICRS </Coordinates>
+      <Epoch>1996-11/1996-12, 2005-2,2005-8,2005-12 </Epoch>
+      <Reference>
+      <![CDATA[ 
+      <a href='http://adsabs.harvard.edu/abs/2010ApJS..188..178M'>Morrison, et al, 2010</a>
+      ]]>
+      </Reference>
+   </MetaTable>
+   <FITS>
+SURVEY  = 'GOODS VLAn'
+REFERNCE= '2010ApJS..188..178M'
+COMMENT     Morrison et al. 2010.
+BUNIT   = 'Jy/Beam'
+   </FITS>
+   <Images>
+      <ImageFactory>skyview.survey.CachingImageFactory</ImageFactory>   
+      <ImageSize> 0.6 </ImageSize>
+      <SpellPrefix>http://skyview.gsfc.nasa.gov/surveys/goods/vla/</SpellPrefix>
+      <Image>GOODSN_1_4GHz_fits.gz,GOODSN_1_4_GHz_fits.gz,189.205833,62.216111,Sin,ICRS,4800,4800,.00013888889,.00013888889 189.205833 62.216111 2006.15 </Image>
+   </Images>
+</Survey>

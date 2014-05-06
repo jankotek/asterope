@@ -1,0 +1,51 @@
+<Survey>
+   <ShortName>GOODSACIS${B}B,GOODS: Chandra ACIS ${B}B, GOODS ACIS ${B}B</ShortName>
+   <Name>GOODS Chandra ACIS: ${Band} band (${KRange} keV)</Name>
+   <Description>
+      This survey comprises the 2 Ms Chandra Deep Field North and 4 Ms Deep Field South ACIS observations.
+      All observations are co-added into two fields in the north and south.  Data are provided in three bands,
+      the soft 0.5-2 keV band, the hard 2.0-8.0 keV and the full 0.5 to 8 keV band.       
+   </Description>
+   <MetaTable>
+      <Provenance>
+    <![CDATA[
+    Taken from the Neil Brandt's PSU web sites for the the 
+    <a http://www2.astro.psu.edu/~niel/hdf/hdf-chandra.html>north</a>
+    and 
+    <a http://www2.astro.psu.edu/~niel/cdsf/cdfs-chandra.html>south</a>. 
+    ]]>
+      </Provenance>
+      <Copyright> Public domain </Copyright>
+      <Regime>X-ray</Regime>
+      <Frequency> ${f} PHz </Frequency>
+      <Bandpass> ${bw} PHz </Bandpass>
+      <Coverage> Approximately 10.e-5 around two goods regions (roughly 0.4 square degrees) </Coverage>
+      <NSurvey>   3 </NSurvey>
+      <PixelScale> 0.5" </PixelScale>
+      <PixelUnits>Counts </PixelUnits>
+      <CoordinateSystem> ICRS </CoordinateSystem>
+      <Resolution> 1" </Resolution>
+      <Projection> Gnomonic </Projection>
+      <Epoch> 1999/2010 </Epoch>
+      <Reference> 
+  <![CDATA[
+    Published descriptions of the <a href=http://adsabs.harvard.edu/abs/2003AJ....126..539A>North</a> and  
+    <a href=http://adsabs.harvard.edu/abs/2011ApJS..195...10X>South</a> field observations.
+  ]]>
+      </Reference>
+   </MetaTable>
+   <Settings>
+      <Scale> 0.0001366667 </Scale>
+   </Settings>
+   <FITS>
+SURVEY  = 'GOODS/Chandra Deep Field ${Band}'
+   </FITS>
+
+   <Images>
+      <ImageFactory>skyview.survey.CachingImageFactory</ImageFactory>   
+      <ImageSize> 0.5 </ImageSize>
+      <SpellPrefix>http://skyview.gsfc.nasa.gov/surveys/goods/chandra/</SpellPrefix>
+      <Image>paper13-cdfn-figure2-${B}B-binned1pix.fits.gz,paper13-cdfn-figure2-${B}B-binned1pix.fits.gz,189.215720,62.2175612,Tan,ICRS,3442,3562,-0.0001367,0,0,0.00013673,1875,1515  189.215720 62.2175612 2002</Image>
+      <Image>CDFS-4Ms-${B}B-asca-im-bin1.fits.gz,CDFS-4Ms-${B}B-asca-im-bin1.fits.gz,53.1180543,-27.8101278,Tan,ICRS,3280,3260,-0.0001366667,0,0,0.0001366667,1693,1607  53.118 -27.810 2002</Image>
+   </Images>
+</Survey>

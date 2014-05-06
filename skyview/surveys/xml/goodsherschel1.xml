@@ -1,0 +1,51 @@
+<Survey>
+   <ShortName>GOODSHerschel1, GOODS Herschel 100, GOODS: Herschel 100</ShortName>   
+   <Name> GOODS Herschel 100 micron, DR1 data release </Name>
+   <Description>
+<![CDATA[
+   GOODS-Herschel is an open time key program of more than 360 hours of observation with the Hershel, SPIRE and PACS, from 100 um and 500.
+   <p>
+   North and South GOODS data is available for 100 and 160 microns (using PACS) but only the northern field is
+   available at 250, 350 and 500 microns (using SPIRE).
+   <p>
+   Note that the scale and resolution of the underlying pixels is different in each band.
+]]>
+   </Description>
+   <MetaTable>
+      <Regime>Infrared</Regime>
+      <Provenance><![CDATA[
+      Downloaded from the <a href=hedam.lam.fr/GOODS-Herschel/>Herschel Database in Marseille</a>.  Release DR1.
+      ]]>
+      </Provenance>
+      <Copyright><![CDATA[
+All papers using GOODS-Herschel data downloaded from HeDaM should include the following acknowledgements:
+
+The GOODS-Herschel data was accessed through the <a href=http://hedam.lam.fr>Herschel Database in Marseille</a> (HeDaM) - http://hedam.lam.fr - 
+operated by CeSAM and hosted by the Laboratoire d'Astrophysique de Marseille.
+]]>
+     </Copyright>
+     <NSurvey> 5 </NSurvey>
+     <PixelScale> 1.2" </PixelScale>
+     <Resolution> 6.7" </Resolution>
+     <PixelUnits> Jy/pixel </PixelUnits>
+     <Coverage>North and South GOODS Fields.  1.e-5</Coverage>
+     <CoordinateSystem>ICRS</CoordinateSystem>
+     <Projection>Gnomonic</Projection>
+     <Epoch>2009/2011</Epoch>
+     <Reference><![CDATA[<a href=http://adsabs.harvard.edu/abs/2011A%26A...533A.119E> Elbaz, et al 2011</a>]]>
+     </Reference>
+   </MetaTable>
+   <Settings>
+      <Scale> 0.000333333333</Scale>
+   </Settings>
+   <FITS>
+SURVEY  = 'GOODS Herschel 100 micron. Release DR1'
+   </FITS>
+   <Images>
+      <ImageFactory>skyview.survey.CachingImageFactory</ImageFactory>   
+      <ImageSize> 0.3 </ImageSize>
+      <SpellPrefix>http://skyview.gsfc.nasa.gov/surveys/goods/herschel/</SpellPrefix>
+      <Image>gh_goodsn_dr1_100_sci.fits,gh_goodsn_dr1_100_sci.fits,189.228621,62.238572,Tan,ICRS,1201,1151,0.0003333333,0.0003333333 189.228621 62.238572 2009.000000</Image>
+      <Image>gh_goodss_dr1_100_sci.fits,gh_goodss_dr1_100_sci.fits,53.122751,-27.805089,Tan,ICRS,1101,1301,0.0003333333,0.0003333333 53.122751 -27.805089 2009.000000</Image>
+   </Images>
+</Survey>

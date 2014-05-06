@@ -1,0 +1,576 @@
+# 1.1.1:   position=187.27791499999998,2.052388  survey=dss  output=1.1.1.fits
+1.1.1=3.70120469E8
+# 1.1.2:   position=187.27791499999998,2.052388  survey=dss1r  output=1.1.2.fits
+1.1.2=2.94235199E8
+# 1.1.3:   position=187.27791499999998,2.052388  survey=dss1b  output=1.1.3.fits
+1.1.3=2.16735753E8
+# 1.1.4:   position=187.27791499999998,2.052388  survey=dss2r  output=1.1.4.fits
+1.1.4=3.98864768E8
+# 1.1.5:   position=187.27791499999998,2.052388  survey=dss2b  output=1.1.5.fits
+1.1.5=4.20669158E8
+# 1.1.6:   position=187.27791499999998,2.052388  survey=dss2ir  output=1.1.6.fits
+1.1.6=4.11450927E8
+# 1.1.7:   position=187.27791499999998,2.052388  survey=pspc2int  output=1.1.7.fits
+1.1.7=21.85293208612893
+# 1.1.8:   position=187.27791499999998,2.052388  survey=pspc1int  output=1.1.8.fits
+1.1.8=-32409.59890355161
+# 1.1.9:   position=187.27791499999998,2.052388  survey=pspc2cnt  output=1.1.9.fits
+1.1.9=891631.0
+# 1.1.10:   position=187.27791499999998,2.052388  survey=pspc2exp  output=1.1.10.fits
+1.1.10=3.180386634352539E9
+# 1.1.11:   position=187.27791499999998,2.052388  survey=2massh  output=1.1.11.fits
+1.1.11=3.3077591068084717E7
+# 1.1.12:   position=187.27791499999998,2.052388  survey=2massj  output=1.1.12.fits
+1.1.12=1.0085633321968079E7
+# 1.1.13:   position=187.27791499999998,2.052388  survey=2massk  output=1.1.13.fits
+1.1.13=5.817545607720947E7
+# 1.1.14:   position=187.27791499999998,2.052388  survey=sdssi  output=1.1.14.fits
+1.1.14=9840.064023971558
+# 1.1.15:   position=187.27791499999998,2.052388  survey=sdssu  output=1.1.15.fits
+1.1.15=9824.88341331482
+# 1.1.16:   position=187.27791499999998,2.052388  survey=sdssz  output=1.1.16.fits
+1.1.16=18615.414516313933
+# 1.1.17:   position=187.27791499999998,2.052388  survey=sdssg  output=1.1.17.fits
+1.1.17=5770.043115615845
+# 1.1.18:   position=187.27791499999998,2.052388  survey=sdssr  output=1.1.18.fits
+1.1.18=9857.962898254395
+# 1.1.19:   position=187.27791499999998,2.052388  survey=iras100  output=1.1.19.fits
+1.1.19=219542.95389175415
+# 1.1.20:   position=187.27791499999998,2.052388  survey=iras60  output=1.1.20.fits
+1.1.20=-107235.17929697037
+# 1.1.21:   position=187.27791499999998,2.052388  survey=iras25  output=1.1.21.fits
+1.1.21=260086.10057926178
+# 1.1.22:   position=187.27791499999998,2.052388  survey=iras12  output=1.1.22.fits
+1.1.22=9274.034594535828
+# 1.1.23:   position=187.27791499999998,2.052388  survey=first  output=1.1.23.fits
+1.1.23=647.1799153189145
+# 1.1.24:   position=187.27791499999998,2.052388  survey=nvss  output=1.1.24.fits
+1.1.24=575.8633854525377
+# 1.1.25:   position=187.27791499999998,2.052388  survey=hriint  output=1.1.25.fits
+1.1.25=4.397402354469705
+# 1.1.26:   position=187.27791499999998,2.052388  survey=rass-cnt broad  output=1.1.26.fits
+1.1.26=41217.0
+# 1.1.27:   position=187.27791499999998,2.052388  survey=rass-cnt hard  output=1.1.27.fits
+1.1.27=8456.0
+# 1.1.28:   position=187.27791499999998,2.052388  survey=rass-cnt soft  output=1.1.28.fits
+1.1.28=30842.0
+# 1.1.29:   position=187.27791499999998,2.052388  survey=halpha  output=1.1.29.fits
+1.1.29=48691.26428222656
+# 1.1.30:   position=187.27791499999998,2.052388  survey=sfddust  output=1.1.30.fits
+1.1.30=2160.2720395652577
+# 1.1.31:   position=187.27791499999998,2.052388  survey=sfd100m  output=1.1.31.fits
+1.1.31=105223.66027379036
+# 1.1.32:   position=187.27791499999998,2.052388  survey=shassa_c  output=1.1.32.fits
+1.1.32=5.5150233E7
+# 1.1.33:   position=187.27791499999998,2.052388  survey=shassa_cc  output=1.1.33.fits
+1.1.33=252625.0
+# 1.1.34:   position=187.27791499999998,2.052388  survey=shassa_h  output=1.1.34.fits
+1.1.34=8.6798569E7
+# 1.1.35:   position=187.27791499999998,2.052388  survey=shassa_sm  output=1.1.35.fits
+1.1.35=291684.0
+# 1.1.36:   position=187.27791499999998,2.052388  survey=4850mhz  output=1.1.36.fits
+1.1.36=2155.8385764944833
+# 1.1.37:   position=187.27791499999998,2.052388  survey=iris12  output=1.1.37.fits
+1.1.37=100455.59887099266
+# 1.1.38:   position=187.27791499999998,2.052388  survey=iris25  output=1.1.38.fits
+1.1.38=170496.49927634
+# 1.1.39:   position=187.27791499999998,2.052388  survey=iris60  output=1.1.39.fits
+1.1.39=54737.5390220664
+# 1.1.40:   position=187.27791499999998,2.052388  survey=iris100  output=1.1.40.fits
+1.1.40=214993.55530428886
+# 1.1.41:   position=187.27791499999998,2.052388  survey=wfcf1  output=1.1.41.fits
+1.1.41=33301.0
+# 1.1.42:   position=187.27791499999998,2.052388  survey=wfcf2  output=1.1.42.fits
+1.1.42=49451.0
+# 1.1.43:   position=187.27791499999998,2.052388  survey=euve83  output=1.1.43.fits
+1.1.43=57133.0
+# 1.1.44:   position=187.27791499999998,2.052388  survey=euve171  output=1.1.44.fits
+1.1.44=57133.0
+# 1.1.45:   position=187.27791499999998,2.052388  survey=euve405  output=1.1.45.fits
+1.1.45=57133.0
+# 1.1.46:   position=187.27791499999998,2.052388  survey=euve555  output=1.1.46.fits
+1.1.46=57133.0
+# 1.1.47:   position=187.27791499999998,2.052388  survey=neat  output=1.1.47.fits
+1.1.47=1.69326848E8
+# 1.1.48:   position=187.27791499999998,2.052388  survey=rass-int broad  output=1.1.48.fits
+1.1.48=103.30576288502198
+# 1.1.49:   position=187.27791499999998,2.052388  survey=rass-int hard  output=1.1.49.fits
+1.1.49=21.242718963418156
+# 1.1.50:   position=187.27791499999998,2.052388  survey=rass-int soft  output=1.1.50.fits
+1.1.50=77.26816288882401
+# 1.1.51:   position=187.27791499999998,2.052388  survey=wisew1  output=1.1.51.fits
+1.1.51=485767.7636883259
+# 1.1.52:   position=187.27791499999998,2.052388  survey=wisew2  output=1.1.52.fits
+1.1.52=1125361.219997406
+# 1.1.53:   position=187.27791499999998,2.052388  survey=wisew3  output=1.1.53.fits
+1.1.53=6.82370453729248E7
+# 1.1.54:   position=187.27791499999998,2.052388  survey=wisew4  output=1.1.54.fits
+1.1.54=2.2805174699554443E7
+# 1.1.55:   position=187.27791499999998,2.052388  survey=planck-030  output=1.1.55.fits
+1.1.55=6.095425010629766
+# 1.1.56:   position=187.27791499999998,2.052388  survey=planck-044  output=1.1.56.fits
+1.1.56=-1.8778172201385086
+# 1.1.57:   position=187.27791499999998,2.052388  survey=planck-070  output=1.1.57.fits
+1.1.57=-2.3443809170583747
+# 1.1.58:   position=187.27791499999998,2.052388  survey=planck-100  output=1.1.58.fits
+1.1.58=-2.6430781999890103
+# 1.1.59:   position=187.27791499999998,2.052388  survey=planck-143  output=1.1.59.fits
+1.1.59=-0.6433284106475898
+# 1.1.60:   position=187.27791499999998,2.052388  survey=planck-217  output=1.1.60.fits
+1.1.60=6.028265169046845
+# 1.1.61:   position=187.27791499999998,2.052388  survey=planck-353  output=1.1.61.fits
+1.1.61=54.093153325653816
+# 1.1.62:   position=187.27791499999998,2.052388  survey=planck-545  output=1.1.62.fits
+1.1.62=43512.79066580534
+# 1.1.63:   position=187.27791499999998,2.052388  survey=planck-857  output=1.1.63.fits
+1.1.63=115256.56981509924
+# 1.2.1:   position=0.,0.  projection=Car  survey=1420mhz  pixels=600,300  output=1.2.1.fits  coordinates=galactic  size=360,180
+1.2.1=4.3242874318847656E8
+# 1.2.2:   position=0.,0.  projection=Car  survey=408mhz  pixels=600,300  output=1.2.2.fits  coordinates=galactic  size=360,180
+1.2.2=5400359.661128998
+# 1.2.3:   position=0.,0.  projection=Car  survey=heao1a  pixels=600,300  output=1.2.3.fits  coordinates=galactic  size=360,180
+1.2.3=1133409.5483908653
+# 1.2.4:   position=0.,0.  projection=Car  survey=cobeaam  pixels=600,300  output=1.2.4.fits  coordinates=galactic  size=360,180
+1.2.4=4231180.932445508
+# 1.2.5:   position=0.,0.  projection=Car  survey=cobezsma  pixels=600,300  output=1.2.5.fits  coordinates=galactic  size=360,180
+1.2.5=3868527.8415437145
+# 1.2.6:   position=0.,0.  projection=Car  survey=comptel  pixels=600,300  output=1.2.6.fits  coordinates=galactic  size=360,180
+1.2.6=23.956726690000032
+# 1.2.7:   position=0.,0.  projection=Car  survey=egretsoft  pixels=600,300  output=1.2.7.fits  coordinates=galactic  size=360,180
+1.2.7=13.935032126089027
+# 1.2.8:   position=0.,0.  projection=Car  survey=egrethard  pixels=600,300  output=1.2.8.fits  coordinates=galactic  size=360,180
+1.2.8=8.02079561975188
+# 1.2.9:   position=0.,0.  projection=Car  survey=egret3d  pixels=600,300  output=1.2.9.fits  coordinates=galactic  size=360,180
+1.2.9=7.9059000571209594
+# 1.2.10:   position=0.,0.  projection=Car  survey=rxte3_20K_sig  pixels=600,300  output=1.2.10.fits  coordinates=galactic  size=360,180
+1.2.10=308924.7547543348
+# 1.2.11:   position=0.,0.  projection=Car  survey=rxte3_8k_sig  pixels=600,300  output=1.2.11.fits  coordinates=galactic  size=360,180
+1.2.11=296527.1374105516
+# 1.2.12:   position=0.,0.  projection=Car  survey=rxte8_20k_sig  pixels=600,300  output=1.2.12.fits  coordinates=galactic  size=360,180
+1.2.12=112404.72142599477
+# 1.2.13:   position=0.,0.  projection=Car  survey=nh  pixels=600,300  output=1.2.13.fits  coordinates=galactic  size=360,180
+1.2.13=1.7428094400000364E26
+# 1.2.14:   position=0.,0.  projection=Car  survey=0035mhz  pixels=600,300  output=1.2.14.fits  coordinates=galactic  size=360,180
+1.2.14=2.7801351646054688E9
+# 1.2.15:   position=0.,0.  projection=Car  survey=wmapk  pixels=600,300  output=1.2.15.fits  coordinates=galactic  size=360,180
+1.2.15=85874.54482147843
+# 1.2.16:   position=0.,0.  projection=Car  survey=wmapka  pixels=600,300  output=1.2.16.fits  coordinates=galactic  size=360,180
+1.2.16=35503.59824533388
+# 1.2.17:   position=0.,0.  projection=Car  survey=wmapq  pixels=600,300  output=1.2.17.fits  coordinates=galactic  size=360,180
+1.2.17=21286.690648324628
+# 1.2.18:   position=0.,0.  projection=Car  survey=wmapv  pixels=600,300  output=1.2.18.fits  coordinates=galactic  size=360,180
+1.2.18=10403.278308578929
+# 1.2.19:   position=0.,0.  projection=Car  survey=wmapw  pixels=600,300  output=1.2.19.fits  coordinates=galactic  size=360,180
+1.2.19=9872.95262506591
+# 1.2.20:   position=0.,0.  projection=Car  survey=wmapilc  pixels=600,300  output=1.2.20.fits  coordinates=galactic  size=360,180
+1.2.20=892.3068695738691
+# 1.2.21:   position=0.,0.  projection=Car  survey=mell-r  pixels=600,300  output=1.2.21.fits  coordinates=galactic  size=360,180
+1.2.21=8066505.590000065
+# 1.2.22:   position=0.,0.  projection=Car  survey=mell-g  pixels=600,300  output=1.2.22.fits  coordinates=galactic  size=360,180
+1.2.22=8661595.869999751
+# 1.2.23:   position=0.,0.  projection=Car  survey=mell-b  pixels=600,300  output=1.2.23.fits  coordinates=galactic  size=360,180
+1.2.23=8814091.479999779
+# 1.2.24:   position=0.,0.  projection=Car  survey=intgal1735f  pixels=600,300  output=1.2.24.fits  coordinates=galactic  size=360,180
+1.2.24=796.2919547718034
+# 1.2.25:   position=0.,0.  projection=Car  survey=intgal1760f  pixels=600,300  output=1.2.25.fits  coordinates=galactic  size=360,180
+1.2.25=608.5370483736593
+# 1.2.26:   position=0.,0.  projection=Car  survey=intgal3580f  pixels=600,300  output=1.2.26.fits  coordinates=galactic  size=360,180
+1.2.26=436.83271030194175
+# 1.2.27:   position=0.,0.  projection=Car  survey=intgal1735e  pixels=600,300  output=1.2.27.fits  coordinates=galactic  size=360,180
+1.2.27=8.405437997020305E10
+# 1.2.28:   position=0.,0.  projection=Car  survey=intgal1735s  pixels=600,300  output=1.2.28.fits  coordinates=galactic  size=360,180
+1.2.28=10343.896758627765
+# 1.3.1:   position=0.,0.  projection=Car  survey=co  pixels=300  output=1.3.1.fits  coordinates=galactic  size=5
+1.3.1=1.1052010036987305E7
+# 1.3.2:   position=0.,0.  projection=Car  survey=granat_sigma_sig  pixels=300  output=1.3.2.fits  coordinates=galactic  size=5
+1.3.2=47960.66885484211
+# 1.3.3:   position=0.,0.  projection=Car  survey=granat_sigma_flux  pixels=300  output=1.3.3.fits  coordinates=galactic  size=5
+1.3.3=0.1881766531558969
+# 1.3.4:   position=0.,0.  projection=Car  survey=integralspi_gc  pixels=300  output=1.3.4.fits  coordinates=galactic  size=5
+1.3.4=364561.6021021642
+# 1.3.5:   position=0.,0.  projection=Car  survey=rassbck1  pixels=300  output=1.3.5.fits  coordinates=galactic  size=5
+1.3.5=1.722375846487999E7
+# 1.3.6:   position=0.,0.  projection=Car  survey=rassbck2  pixels=300  output=1.3.6.fits  coordinates=galactic  size=5
+1.3.6=2.2330252773965836E7
+# 1.3.7:   position=0.,0.  projection=Car  survey=rassbck3  pixels=300  output=1.3.7.fits  coordinates=galactic  size=5
+1.3.7=2534642.601161957
+# 1.3.8:   position=0.,0.  projection=Car  survey=rassbck4  pixels=300  output=1.3.8.fits  coordinates=galactic  size=5
+1.3.8=6449930.108948171
+# 1.3.9:   position=0.,0.  projection=Car  survey=rassbck5  pixels=300  output=1.3.9.fits  coordinates=galactic  size=5
+1.3.9=1.2902696562332153E7
+# 1.3.10:   position=0.,0.  projection=Car  survey=rassbck6  pixels=300  output=1.3.10.fits  coordinates=galactic  size=5
+1.3.10=2.6695780739318848E7
+# 1.3.11:   position=0.,0.  projection=Car  survey=rassbck7  pixels=300  output=1.3.11.fits  coordinates=galactic  size=5
+1.3.11=2.2795860787879944E7
+# 1.4.1:   position=0., 90.  projection=Tan  survey=wenss  pixels=500,500  output=1.4.1.fits  coordinates=ICRS  size=5
+1.4.1=113.19271956240284
+# 1.4.2:   position=0., -90.  projection=Tan  survey=sumss  pixels=500,500  output=1.4.2.fits  coordinates=ICRS  size=5
+1.4.2=43.729954832495714
+# 1.4.3:   position=10.,10.  projection=Tan  survey=galexnear  pixels=500,500  output=1.4.3.fits  coordinates=ICRS  size=.4
+1.4.3=820.6181287262589
+# 1.4.4:   position=10.,10.  projection=Tan  survey=galexfar  pixels=500,500  output=1.4.4.fits  coordinates=ICRS  size=.4
+1.4.4=96.38110394682735
+# 1.5.1:   position=10.,10.  projection=Tan  survey=fermi1  pixels=500,500  output=1.5.1.fits  coordinates=ICRS  size=40
+1.5.1=354679.0
+# 1.5.2:   position=10.,10.  projection=Tan  survey=fermi2  pixels=500,500  output=1.5.2.fits  coordinates=ICRS  size=40
+1.5.2=669145.0
+# 1.5.3:   position=10.,10.  projection=Tan  survey=fermi3  pixels=500,500  output=1.5.3.fits  coordinates=ICRS  size=40
+1.5.3=432964.0
+# 1.5.4:   position=10.,10.  projection=Tan  survey=fermi4  pixels=500,500  output=1.5.4.fits  coordinates=ICRS  size=40
+1.5.4=112962.0
+# 1.5.5:   position=10.,10.  projection=Tan  survey=fermi5  pixels=500,500  output=1.5.5.fits  coordinates=ICRS  size=40
+1.5.5=34441.0
+# 1.6.1:   position=184.6,2.08  projection=Tan  survey=UKIDSS-Y  pixels=500,500  output=1.6.1.fits  coordinates=ICRS  size=0.05
+1.6.1=7.671988472819826E7
+# 1.6.2:   position=184.6,2.08  projection=Tan  survey=UKIDSS-J  pixels=500,500  output=1.6.2.fits  coordinates=ICRS  size=0.05
+1.6.2=1.1515837600293027E8
+# 1.6.3:   position=184.6,2.08  projection=Tan  survey=UKIDSS-H  pixels=500,500  output=1.6.3.fits  coordinates=ICRS  size=0.05
+1.6.3=1.97013198E9
+# 1.6.4:   position=184.6,2.08  projection=Tan  survey=UKIDSS-K  pixels=500,500  output=1.6.4.fits  coordinates=ICRS  size=0.05
+1.6.4=1.977415647E9
+# 1.7.1:   position=0.,0.  projection=Tan  survey=bat-snr-1  pixels=500,500  output=1.7.1.fits  coordinates=Galactic  size=10
+1.7.1=414006.8114029527
+# 1.7.2:   position=0.,0.  projection=Tan  survey=bat-snr-2  pixels=500,500  output=1.7.2.fits  coordinates=Galactic  size=10
+1.7.2=431207.5730651235
+# 1.7.3:   position=0.,0.  projection=Tan  survey=bat-snr-3  pixels=500,500  output=1.7.3.fits  coordinates=Galactic  size=10
+1.7.3=447106.4801842788
+# 1.7.4:   position=0.,0.  projection=Tan  survey=bat-snr-4  pixels=500,500  output=1.7.4.fits  coordinates=Galactic  size=10
+1.7.4=367403.40826779045
+# 1.7.5:   position=0.,0.  projection=Tan  survey=bat-snr-5  pixels=500,500  output=1.7.5.fits  coordinates=Galactic  size=10
+1.7.5=280584.68698064436
+# 1.7.6:   position=0.,0.  projection=Tan  survey=bat-snr-6  pixels=500,500  output=1.7.6.fits  coordinates=Galactic  size=10
+1.7.6=141966.58712739905
+# 1.7.7:   position=0.,0.  projection=Tan  survey=bat-snr-7  pixels=500,500  output=1.7.7.fits  coordinates=Galactic  size=10
+1.7.7=71563.17539877271
+# 1.7.8:   position=0.,0.  projection=Tan  survey=bat-snr-8  pixels=500,500  output=1.7.8.fits  coordinates=Galactic  size=10
+1.7.8=28306.047805226386
+# 1.7.9:   position=0.,0.  projection=Tan  survey=bat-flux-1  pixels=500,500  output=1.7.9.fits  coordinates=Galactic  size=10
+1.7.9=1.1566653959439503
+# 1.7.10:   position=0.,0.  projection=Tan  survey=bat-flux-2  pixels=500,500  output=1.7.10.fits  coordinates=Galactic  size=10
+1.7.10=0.5191842142122252
+# 1.7.11:   position=0.,0.  projection=Tan  survey=bat-flux-3  pixels=500,500  output=1.7.11.fits  coordinates=Galactic  size=10
+1.7.11=0.7409963249587745
+# 1.7.12:   position=0.,0.  projection=Tan  survey=bat-flux-4  pixels=500,500  output=1.7.12.fits  coordinates=Galactic  size=10
+1.7.12=0.4458012245803057
+# 1.7.13:   position=0.,0.  projection=Tan  survey=bat-flux-5  pixels=500,500  output=1.7.13.fits  coordinates=Galactic  size=10
+1.7.13=0.3410017457986855
+# 1.7.14:   position=0.,0.  projection=Tan  survey=bat-flux-6  pixels=500,500  output=1.7.14.fits  coordinates=Galactic  size=10
+1.7.14=0.12853077574386987
+# 1.7.15:   position=0.,0.  projection=Tan  survey=bat-flux-7  pixels=500,500  output=1.7.15.fits  coordinates=Galactic  size=10
+1.7.15=0.0709977571622519
+# 1.7.16:   position=0.,0.  projection=Tan  survey=bat-flux-8  pixels=500,500  output=1.7.16.fits  coordinates=Galactic  size=10
+1.7.16=0.024057273594195266
+# 1.7.17:   position=0.,0.  projection=Tan  survey=bat-snr-sum  pixels=500,500  output=1.7.17.fits  coordinates=Galactic  size=10
+1.7.17=675057.7664052034
+# 2.1.1:   position=0.,0.  userfile=inputtest1.fits  survey=user  output=2.1.1.fits  pixels=22  coordinates=J2000  sampler=NN  size=1.1
+2.1.1=4.0
+# 2.1.2:   position=0.,0.  userfile=inputtest1.fits  survey=user  output=2.1.2.fits  pixels=22  coordinates=J2000  sampler=LI  size=1.1
+2.1.2=4.000004696181283
+# 2.1.3:   position=0.,0.  userfile=inputtest1.fits  survey=user  output=2.1.3.fits  pixels=22  coordinates=J2000  sampler=Lanczos  size=1.1
+2.1.3=3.9758101866175357
+# 2.1.4:   position=0.,0.  userfile=inputtest1.fits  survey=user  output=2.1.4.fits  pixels=22  coordinates=J2000  sampler=Lanczos3  size=1.1
+2.1.4=3.9758101866175357
+# 2.1.5:   position=0.,0.  userfile=inputtest1.fits  survey=user  output=2.1.5.fits  pixels=22  coordinates=J2000  sampler=Lanczos4  size=1.1
+2.1.5=3.4842764718174597
+# 2.1.6:   position=0.,0.  userfile=inputtest1.fits  survey=user  output=2.1.6.fits  pixels=22  coordinates=J2000  sampler=Spline  size=1.1
+2.1.6=4.00268995856378
+# 2.1.7:   position=0.,0.  userfile=inputtest1.fits  survey=user  output=2.1.7.fits  pixels=22  coordinates=J2000  sampler=Spline3  size=1.1
+2.1.7=4.00268995856378
+# 2.1.8:   position=0.,0.  userfile=inputtest1.fits  survey=user  output=2.1.8.fits  pixels=22  coordinates=J2000  sampler=Spline4  size=1.1
+2.1.8=4.0060015082738145
+# 2.1.9:   position=0.,0.  userfile=inputtest1.fits  survey=user  output=2.1.9.fits  pixels=22  coordinates=J2000  sampler=Spline5  size=1.1
+2.1.9=4.010125783629275
+# 2.1.10:   position=0.,0.  userfile=inputtest1.fits  survey=user  output=2.1.10.fits  pixels=22  coordinates=J2000  sampler=Clip  size=1.1
+2.1.10=0.9999999999419431
+# 2.2.1:   position=0.,0.  userfile=inputtest1.fits  survey=IRIS100  output=2.2.1.fits  pixels=500  coordinates=J2000  mosaicker=skyview.process.IDMosaic  sampler=Clip  size=30
+2.2.1=7241601.0
+# 2.2.2:   position=0.,0.  userfile=inputtest1.fits,inputtest2.fits,inputtest3.fits  imagefinder=Bypass  projection=Car  survey=User  output=2.2.2.fits  pixels=101  coordinates=J2000  mosaicker=skyview.process.AddingMosaicker  sampler=Clip  size=10.1
+2.2.2=-9935.0
+# 2.2.3:   position=0.,0.  userfile=inputtest1.fits,inputtest2.fits,inputtest3.fits  imagefinder=Overlap  projection=Car  survey=User  output=2.2.3.fits  pixels=101  coordinates=J2000  mosaicker=skyview.process.AddingMosaicker  sampler=Clip  size=10.1
+2.2.3=-9935.0
+# 3.1.1:   position=0.,0.  projection=Tan  survey=heao1a  output=3.1.1.fits  pixels=300  coordinates=Galactic  size=90
+3.1.1=874406.7198307514
+# 3.1.2:   position=0.,0.  projection=Sin  survey=heao1a  output=3.1.2.fits  pixels=300  coordinates=Galactic  size=90
+3.1.2=810976.6691172123
+# 3.1.3:   position=0.,0.  projection=Car  survey=heao1a  output=3.1.3.fits  pixels=300  coordinates=Galactic  size=90
+3.1.3=834491.7106478214
+# 3.1.4:   position=0.,0.  projection=Ait  survey=heao1a  output=3.1.4.fits  pixels=300  coordinates=Galactic  size=90
+3.1.4=831467.8463526964
+# 3.1.5:   position=0.,0.  projection=Csc  survey=heao1a  output=3.1.5.fits  pixels=300  coordinates=Galactic  size=90
+3.1.5=886286.2419294119
+# 3.1.6:   position=0.,0.  projection=Zea  survey=heao1a  output=3.1.6.fits  pixels=300  coordinates=Galactic  size=90
+3.1.6=832418.6605165005
+# 3.1.7:   position=0.,0.  projection=Arc  survey=heao1a  output=3.1.7.fits  pixels=300  coordinates=Galactic  size=90
+3.1.7=836607.2049605846
+# 3.1.8:   position=0.,0.  projection=Stg  survey=heao1a  output=3.1.8.fits  pixels=300  coordinates=Galactic  size=90
+3.1.8=845342.9402403831
+# 3.1.9:   position=0.,0.  projection=Sfl  survey=heao1a  output=3.1.9.fits  pixels=300  coordinates=Galactic  size=90
+3.1.9=832907.0124163628
+# 3.1.10:   position=0.,0.  projection=Hpx  survey=heao1a  output=3.1.10.fits  pixels=300  coordinates=Galactic  size=90
+3.1.10=887688.2944529057
+# 3.1.11:   position=0.,0.  projection=Tea  survey=heao1a  output=3.1.11.fits  pixels=300  coordinates=Galactic  size=90
+3.1.11=504498.07553577423
+# 3.2.1:   position=0.,90.  projection=Toa  clipintensive=1  survey=HEAO1A  output=3.2.1.fits  pixels=200  coordinates=J2000  sampler=Clip  size=90
+3.2.1=241049.78466395117
+# 3.3.1:   level=9  projection=Toa  clipintensive=1  survey=DSS  tilex=49  output=3.3.1.fits  subdir=9  tiley=33  coordinates=J2000  sampler=Clip
+3.3.1=2.476202945430578E8
+# 3.4.1:   position=0.,90.  projection=Toa  clipintensive=1  survey=HEAO1A  output=3.4.1.fits  coordinates=J2000  sampler=Clip
+3.4.1=546321.7964056199
+# 3.4.2:   position=0.,90.  projection=Tea  clipintensive=1  survey=HEAO1A  output=3.4.2.fits  coordinates=J2000  sampler=Clip
+3.4.2=439025.78069638106
+# 3.4.3:   position=0.,90.  projection=Tot  clipintensive=1  survey=HEAO1A  output=3.4.3.fits  coordinates=J2000  sampler=Clip
+3.4.3=537618.030696176
+# 3.5.1:   position=0,45  projection=Cah  clipintensive=1  survey=HEAO1A  pixels=1200,800  output=3.5.1.fits  coordinates=J2000  size=600,400  sampler=Clip
+3.5.1=1801346.9796234309
+# 4.1:   position=0.,0.  projection=Car  survey=heao1a  output=4.1.fits  pixels=300  coordinates=J2000  size=90
+4.1=534822.1658923626
+# 4.2:   position=0.,0.  projection=Car  survey=heao1a  output=4.2.fits  pixels=300  coordinates=B1950  size=90
+4.2=534754.95855546
+# 4.3:   position=0.,0.  projection=Car  survey=heao1a  output=4.3.fits  pixels=300  coordinates=E2000  size=90
+4.3=507623.15588641167
+# 4.4:   position=0.,0.  projection=Car  survey=heao1a  output=4.4.fits  pixels=300  coordinates=H2000  size=90
+4.4=845254.4545599222
+# 4.5:   position=0.,0.  projection=Car  survey=heao1a  output=4.5.fits  pixels=300  coordinates=Galactic  size=90
+4.5=834491.7106478214
+# 4.6:   position=0.,0.  projection=Car  survey=heao1a  output=4.6.fits  pixels=300  coordinates=ICRS  size=90
+4.6=534821.9662239552
+# 5.1.1:   position=0.,0.  rotation=0  projection=Car  survey=heao1a  output=5.1.1.fits  pixels=300  coordinates=galactic  sampler=NN  size=90
+5.1.1=834491.7106478214
+# 5.1.2:   position=0.,0.  rotation=30  projection=Car  survey=heao1a  output=5.1.2.fits  pixels=300  coordinates=galactic  sampler=NN  size=90
+5.1.2=839964.322149396
+# 5.1.3:   position=0.,0.  rotation=60  projection=Car  survey=heao1a  output=5.1.3.fits  pixels=300  coordinates=galactic  sampler=NN  size=90
+5.1.3=837253.1591802835
+# 5.1.4:   position=0.,0.  rotation=90  projection=Car  survey=heao1a  output=5.1.4.fits  pixels=300  coordinates=galactic  sampler=NN  size=90
+5.1.4=834491.7106478214
+# 5.1.5:   position=0.,0.  rotation=180  projection=Car  survey=heao1a  output=5.1.5.fits  pixels=300  coordinates=galactic  sampler=NN  size=90
+5.1.5=834491.7106478214
+# 5.1.6:   position=0.,0.  rotation=-30  projection=Car  survey=heao1a  output=5.1.6.fits  pixels=300  coordinates=galactic  sampler=NN  size=90
+5.1.6=837253.1591802835
+# 5.1.7:   position=0.,0.  rotation=-90  projection=Car  survey=heao1a  output=5.1.7.fits  pixels=300  coordinates=galactic  sampler=NN  size=90
+5.1.7=834491.7106478214
+# 5.2.1:   min=1  position=187.27791499999998,2.052388  projection=Tan  survey=dss  output=5.2.1.fits  pixels=300  coordinates=J2000  sampler=NN
+5.2.1=3.70120469E8
+# 5.3.1:   position=0.,90.  refcoords=0.,1.  projection=Ait  survey=408Mhz  output=5.3.1.fits  pixels=500,250  coordinates=J2000  size=380,180  sampler=NN
+5.3.1=1395364.7555217743
+# 5.3.2:   position=0.,90.  refcoords=0.,90.  projection=Ait  survey=408Mhz  output=5.3.2.fits  pixels=500,250  coordinates=J2000  size=380,180  sampler=NN
+5.3.2=2626031.461754799
+# 5.3.3:   position=0.,90.  refcoords=0.,-89.  projection=Ait  survey=408Mhz  output=5.3.3.fits  pixels=500,250  coordinates=J2000  size=380,180  sampler=NN
+5.3.3=1216018.2323989868
+# 5.3.4:   position=0.,90.  refcoords=179.,0.  projection=Ait  survey=408Mhz  output=5.3.4.fits  pixels=500,250  coordinates=J2000  size=380,180  sampler=NN
+5.3.4=1374261.3453073502
+# 6.1:   position=0.,0.  scale=0.25  projection=Car  survey=heao1a  output=6.1.fits  pixels=300  coordinates=Galactic  sampler=NN  size=90
+6.1=834491.7106478214
+# 6.2:   position=0.,0.  scale=0.25,0.25  projection=Car  survey=heao1a  output=6.2.fits  pixels=300  coordinates=Galactic  sampler=NN  size=90
+6.2=834491.7106478214
+# 6.3:   position=0.,0.  scale=0.5,0.25  projection=Car  survey=heao1a  output=6.3.fits  pixels=300  coordinates=Galactic  sampler=NN  size=90
+6.3=834491.7106478214
+# 6.4:   position=0.,0.  scale=0.25,0.5  projection=Car  survey=heao1a  output=6.4.fits  pixels=300  coordinates=Galactic  sampler=NN  size=90
+6.4=834491.7106478214
+# 6.5:   position=0.,0.  scale=0.1  projection=Car  survey=heao1a  output=6.5.fits  pixels=300  coordinates=Galactic  sampler=NN  size=90
+6.5=834491.7106478214
+# 7.1:   position=0.,0.  projection=Car  survey=heao1a  output=7.1.fits  pixels=300  coordinates=galactic  sampler=NN  size=90
+7.1=834491.7106478214
+# 7.2:   position=0.,0.  projection=Car  survey=heao1a  output=7.2.fits  pixels=300,150  coordinates=galactic  sampler=NN  size=90
+7.2=416259.1572033167
+# 7.3:   position=0.,0.  projection=Car  survey=heao1a  output=7.3.fits  pixels=150,300  coordinates=galactic  sampler=NN  size=90
+7.3=416892.677118659
+# 7.4:   position=0.,0.  projection=Car  survey=heao1a  output=7.4.fits  pixels=10,10  coordinates=galactic  sampler=NN  size=90
+7.4=629.7227401733398
+# 9.1:   position=180.,0.  projection=Car  survey=heao1a  pixels=30  output=9.1.fits  coordinates=galactic  sampler=NN  size=90
+9.1=5478.569013118744
+# 9.2:   lon=180  projection=Car  survey=heao1a  pixels=30  output=9.2.fits  lat=0  coordinates=galactic  sampler=NN  size=90
+9.2=5478.569013118744
+# 9.3:   projection=Car  survey=heao1a  pixels=30  output=9.3.fits  coordinates=galactic  copywcs=9.1.fits  sampler=NN  size=90
+9.3=5478.569013118744
+# 10.1:   position=180.,0.  projection=Car  survey=heao1a  output=10.1.fits  pixels=200,100  quicklook=  coordinates=galactic  sampler=NN  size=360,180
+10.1=2752005.0
+# 10.2:   position=180.,0.  projection=Car  survey=heao1a  output=10.2.fits  pixels=200,100  quicklook=JPEG  coordinates=galactic  sampler=NN  size=360,180
+10.2=2752005.0
+# 10.3:   position=180.,0.  projection=Car  survey=heao1a  output=10.3.fits  pixels=200,100  quicklook=JPG  coordinates=galactic  sampler=NN  size=360,180
+10.3=2752005.0
+# 10.4:   position=180.,0.  projection=Car  survey=heao1a  output=10.4.fits  pixels=200,100  quicklook=GIF  coordinates=galactic  sampler=NN  size=360,180
+10.4=917374.0
+# 10.5:   position=180.,0.  projection=Car  survey=heao1a  output=10.5.fits  pixels=200,100  quicklook=BMP  coordinates=galactic  sampler=NN  size=360,180
+10.5=917374.0
+# 10.7:   position=180.,0.  projection=Car  survey=heao1a  output=10.7.fits  pixels=200,100  quicklook=PNG  coordinates=galactic  sampler=NN  size=360,180
+10.7=2752122.0
+# 10.8:   nofits=  position=180.,0.  projection=Car  survey=heao1a  output=10.8.fits  pixels=200,100  quicklook=  coordinates=galactic  sampler=NN  size=360,180
+10.8=2752005.0
+# 11.1:   nofits=  position=0., 0.  projection=Car  grid=  survey=heao1a  output=11.1.fits  pixels=400,200  quicklook=JPG  coordinates=galactic  sampler=NN  size=360,180
+11.1=1.7032995E7
+# 11.2:   nofits=  position=0., 0.  gridlabels=  projection=Car  grid=  survey=heao1a  output=11.2.fits  pixels=400,200  quicklook=JPG  coordinates=galactic  sampler=NN  size=360,180
+11.2=1.74117E7
+# 11.3:   nofits=  position=0., 0.  gridlabels=  projection=Car  grid=equatorial  survey=heao1a  output=11.3.fits  pixels=400,200  quicklook=JPG  coordinates=galactic  sampler=NN  size=360,180
+11.3=1.7718027E7
+# 11.4:   nofits=  position=45.,90.  projection=Tan  grid=  survey=heao1a  output=11.4.fits  pixels=300  quicklook=JPG  coordinates=galactic  sampler=NN  size=60
+11.4=2.5085547E7
+# 11.5:   nofits=  position=45.,90.  gridlabels=  projection=Tan  grid=  survey=heao1a  output=11.5.fits  pixels=300  quicklook=JPG  coordinates=galactic  sampler=NN  size=60
+11.5=2.5467324E7
+# 11.6:   nofits=  position=45.,90.  gridlabels=  projection=Tan  grid=equatorial  survey=heao1a  output=11.6.fits  pixels=300  quicklook=JPG  coordinates=galactic  sampler=NN  size=60
+11.6=2.4417411E7
+# 12.1:   position=0., 0.  contour=heao1a  projection=Car  survey=heao1a  output=12.1.fits  pixels=400,200  quicklook=jpg  coordinates=galactic  sampler=NN  size=360,180
+12.1=1.6454997E7
+# 12.2:   position=0., 0.  contoursmooth=7  contour=heao1a  projection=Car  survey=heao1a  output=12.2.fits  pixels=400,200  quicklook=jpg  coordinates=galactic  sampler=NN  size=360,180
+12.2=1.5868257E7
+# 12.3:   position=0., 0.  contour=heao1a:linear  projection=Car  survey=heao1a  output=12.3.fits  pixels=400,200  quicklook=jpg  coordinates=galactic  sampler=NN  size=360,180
+12.3=1.5737136E7
+# 12.4:   position=0., 0.  contour=heao1a:sqrt  projection=Car  survey=heao1a  output=12.4.fits  pixels=400,200  quicklook=jpg  coordinates=galactic  sampler=NN  size=360,180
+12.4=1.5393399E7
+# 12.5:   position=0., 0.  contour=heao1a:log:6  projection=Car  survey=heao1a  output=12.5.fits  pixels=400,200  quicklook=jpg  coordinates=galactic  sampler=NN  size=360,180
+12.5=1.6244088E7
+# 12.6:   position=0., 0.  contour=heao1a:log:6:1:1000  projection=Car  survey=heao1a  output=12.6.fits  pixels=400,200  quicklook=jpg  coordinates=galactic  sampler=NN  size=360,180
+12.6=1.5763674E7
+# 12.7:   position=0., 0.  contour=egrethard  projection=Car  survey=heao1a  output=12.7.fits  pixels=400,200  quicklook=jpg  coordinates=galactic  sampler=NN  size=360,180
+12.7=3.3341619E7
+# 12.8:   position=0., 0.  contour=egrethard:log:5:1.e-7:0.01  projection=Car  survey=heao1a  output=12.8.fits  pixels=400,200  quicklook=jpg  coordinates=galactic  sampler=NN  size=360,180
+12.8=4.1927937E7
+# 12.9:   position=0., 0.  contoursmooth=5  contour=egrethard:log:5:1.e-7:0.01  projection=Car  survey=heao1a  output=12.9.fits  pixels=400,200  quicklook=jpg  coordinates=galactic  sampler=NN  size=360,180
+12.9=1.8079623E7
+# 12.10:   position=0., 0.  contoursmooth=5  contour=egrethard:log:5:1.e-7:0.01  projection=Car  survey=heao1a  nocontourprint=  output=12.10.fits  pixels=400,200  quicklook=jpg  coordinates=galactic  sampler=NN  size=360,180
+12.10=1.8079623E7
+# 14.1:   position=0.,0.  catalog=rosmaster  projection=Car  survey=rass-cnt broad  output=14.1.fits  pixels=500  coordinates=Galactic  quicklook=jpg  size=15  scaling=log
+14.1=1755912.0
+# 14.2:   position=0.,0.  catalog=rosmaster  projection=Car  catalogids=  survey=rass-cnt broad  output=14.2.fits  pixels=500  coordinates=Galactic  quicklook=jpg  size=15  scaling=log
+14.2=5491827.0
+# 14.3:   position=0.,0.  catalog=rosmaster  projection=Car  catalogfile=  catalogids=  survey=rass-cnt broad  output=14.3.fits  pixels=500  coordinates=Galactic  quicklook=jpg  size=15  scaling=log
+14.3=5491827.0
+# 15.1:   nofits=  position=187.27791499999998,2.052388  survey=dss  output=15.1.fits  pixels=500  coordinates=J2000  quicklook=jpg
+15.1=4.4986215E7
+# 15.2:   invert=  nofits=  position=187.27791499999998,2.052388  survey=dss  output=15.2.fits  pixels=500  coordinates=J2000  quicklook=jpg
+15.2=1.46263914E8
+# 15.3:   nofits=  position=187.27791499999998,2.052388  lut=fire  survey=dss  output=15.3.fits  pixels=500  coordinates=J2000  quicklook=jpg
+15.3=8.635693E7
+# 15.4:   invert=  nofits=  position=187.27791499999998,2.052388  lut=fire  survey=dss  output=15.4.fits  pixels=500  coordinates=J2000  quicklook=jpg
+15.4=1.16304943E8
+# 15.5:   nofits=  position=187.27791499999998,2.052388  coltab=green-pink  survey=dss  output=15.5.fits  pixels=500  coordinates=J2000  quicklook=jpg
+15.5=5.3114961E7
+# 15.6:   nofits=  position=187.27791499999998,2.052388  lut=colortables/green-pink.bin  survey=dss  output=15.6.fits  pixels=500  coordinates=J2000  quicklook=jpg
+15.6=5.3114961E7
+# 16.1:   position=0.,0.  survey=iras100,iras25,rass-cnt broad  rgb=  output=16.1.fits  pixels=600,300  quicklook=JPEG  coordinates=G  size=40,20
+16.1=2.7032487E7
+# 16.2:   position=0.,0.  rgbsmooth=1,1,5  survey=iras100,iras25,rass-cnt broad  rgb=  output=16.2.fits  pixels=600,300  quicklook=JPEG  coordinates=G  size=40,20
+16.2=2.7037569E7
+# 16.3:   position=0.,0.  rgbsmooth=1,1,5  gridlabels=  grid=  survey=iras100,iras25,rass-cnt broad  rgb=  output=16.3.fits  pixels=600,300  quicklook=JPEG  coordinates=G  size=40,20
+16.3=2.9527939E7
+# 17.1:   position=0.,0.  survey=iras100  output=17.1.fits  pixels=500  quicklook=JPEG  coordinates=G  scaling=log  size=10
+17.1=5.1597258E7
+# 17.2:   position=0.,0.  survey=iras100  output=17.2.fits  pixels=500  quicklook=JPEG  coordinates=G  scaling=linear  size=10
+17.2=4863561.0
+# 17.3:   position=0.,0.  survey=iras100  output=17.3.fits  pixels=500  quicklook=JPEG  coordinates=G  scaling=sqrt  size=10
+17.3=1.7231373E7
+# 17.4:   position=0.,0.  survey=iras100  output=17.4.fits  pixels=500  quicklook=JPEG  coordinates=G  scaling=sqrt  size=10
+17.4=1.7231373E7
+# 17.5:   position=0.,0.  survey=iras100  output=17.5.fits  pixels=500  quicklook=JPEG  coordinates=G  scaling=sqrt  size=10
+17.5=1.7231373E7
+# 17.6:   position=0.,0.  survey=iras100  output=17.6.fits  pixels=500  quicklook=JPEG  coordinates=G  scaling=sqrt  size=10
+17.6=1.7231373E7
+
+
+
+
+# Added Feb 18, 2014
+# 1.8.1:   position=346.,-0.2  projection=Tan  survey=Stripe82VLA  pixels=500,500  output=1.8.1.fits  size=.1
+1.8.1=0.2631285891619667
+# 1.9.1:   position=189.228621,62.238661  projection=Tan  survey=GOODSNVLA  pixels=400  output=1.9.1.fits  size=0.1
+1.9.1=0.02751640045200876
+# 1.9.2:   position=189.228621,62.238661  projection=Tan  survey=GOODSMIPS  pixels=400  output=1.9.2.fits  size=0.1
+1.9.2=1556.6212170165848
+# 1.9.3:   position=189.228621,62.238661  projection=Tan  survey=GOODSACISFB  pixels=400  output=1.9.3.fits  size=0.1
+1.9.3=63612.0
+# 1.9.4:   position=189.228621,62.238661  projection=Tan  survey=GOODSACISSB  pixels=400  output=1.9.4.fits  size=0.1
+1.9.4=22229.0
+# 1.9.5:   position=189.228621,62.238661  projection=Tan  survey=GOODSACISHB  pixels=400  output=1.9.5.fits  size=0.1
+1.9.5=41383.0
+# 1.9.6:   position=189.228621,62.238661  projection=Tan  survey=GOODS ACS B  pixels=400  output=1.9.6.fits  size=0.1
+1.9.6=51.69866243180218
+# 1.9.7:   position=189.228621,62.238661  projection=Tan  survey=GOODS ACS V  pixels=400  output=1.9.7.fits  size=0.1
+1.9.7=145.40732968823067
+# 1.9.8:   position=189.228621,62.238661  projection=Tan  survey=GOODS ACS I  pixels=400  output=1.9.8.fits  size=0.1
+1.9.8=122.19852043867877
+# 1.9.9:   position=189.228621,62.238661  projection=Tan  survey=GOODS ACS Z  pixels=400  output=1.9.9.fits  size=0.1
+1.9.9=98.44195203630215
+# 1.9.10:   position=189.228621,62.238661  projection=Tan  survey=GOODS IRAC 1  pixels=400  output=1.9.10.fits  size=0.1
+1.9.10=2417.8828207815172
+# 1.9.11:   position=189.228621,62.238661  projection=Tan  survey=GOODS IRAC 2  pixels=400  output=1.9.11.fits  size=0.1
+1.9.11=1314.6620572451645
+# 1.9.12:   position=189.228621,62.238661  projection=Tan  survey=GOODS IRAC 3  pixels=400  output=1.9.12.fits  size=0.1
+1.9.12=658.5479196109783
+# 1.9.13:   position=189.228621,62.238661  projection=Tan  survey=GOODS IRAC 4  pixels=400  output=1.9.13.fits  size=0.1
+1.9.13=637.4406673567262
+# 1.10.1:   position=189.228621,62.238661  projection=Tan  survey=GOODS ACS B  pixels=400  output=1.10.1.fits  size=.001
+1.10.1=38.37863674845647
+# 1.10.2:   position=189.228621,62.238661  projection=Tan  survey=GOODS ACS B  pixels=400  output=1.10.2.fits  size=.01
+1.10.2=39.45341584666079
+# 1.10.3:   position=189.228621,62.238661  projection=Tan  survey=GOODS ACS B  pixels=400  output=1.10.3.fits  size=.1
+1.10.3=51.69866243180218
+# 1.10.4:   position=189.228621,62.238661  projection=Tan  survey=GOODS ACS B  pixels=400  output=1.10.4.fits  size=1
+1.10.4=4.45289453681778
+# 14.4:   position=0.,0.  catalogradius=5  catalog=rosmaster  projection=Car  catalogfile=  catalogids=  survey=rass-cnt broad  output=14.4.fits  pixels=500  coordinates=Galactic  quicklook=jpg  size=15  scaling=log
+14.4=3158499.0
+# 14.5:   position=0.,0.  catalogfilter=instrument=hri  catalogradius=5  catalog=rosmaster  projection=Car  catalogfile=  catalogids=  survey=rass-cnt broad  output=14.5.fits  pixels=500  coordinates=Galactic  quicklook=jpg  size=15  scaling=log
+14.5=1632153.0
+# 14.6:   position=0.,0.  catalogfilter=instrument=hri,exposure>20000  catalogradius=5  catalog=rosmaster  projection=Car  catalogfile=  catalogids=  survey=rass-cnt broad  output=14.6.fits  pixels=500  coordinates=Galactic  quicklook=jpg  size=15  scaling=log
+14.6=925479.0
+# 14.7:   position=289.95087909728574,64.35997524900246  catalog=ned  projection=Tan  catalogfile=  catalogids=  survey=dss  output=14.7.fits  pixels=300  coordinates=Galactic  quicklook=jpg  size=0.1  scaling=log
+14.7=2.4564729E7
+# 14.8:   position=289.95087909728574,64.35997524900246  catalog=I/284  projection=Tan  catalogfile=  catalogids=  survey=dss  output=14.8.fits  pixels=300  coordinates=Galactic  quicklook=jpg  size=0.1  scaling=log
+14.8=1.3883133E7
+# 14.9:   position=289.95087909728574,64.35997524900246  catalog=http://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=rosmaster&  projection=Tan  catalogfile=  catalogids=  survey=dss  output=14.9.fits  pixels=300  coordinates=Galactic  quicklook=jpg  size=0.1  scaling=log
+14.9=1.1909166E7
+# 14.10:   position=289.95087909728574,64.35997524900246  catalog=ned,I/284,http://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=rosmaster&  projection=Tan  catalogfile=  catalogids=  survey=dss  output=14.10.fits  pixels=300  coordinates=Galactic  quicklook=jpg  size=0.1  scaling=log
+14.10=2.6523966E7
+# 14.11:   position=289.95087909728574,64.35997524900246  catalog=ned,I/284,http://heasarc.gsfc.nasa.gov/cgi-bin/vo/cone/coneGet.pl?table=rosmaster&  projection=Tan  catalogfile=  catalogids=  survey=dss  output=14.11.fits  pixels=300  coordinates=Galactic  quicklook=jpg  size=0.1  scaling=log
+14.11=2.6523966E7
+# 14.12:   position=289.95087909728574,64.35997524900246  catalogfields=  catalog=ned  projection=Tan  catalogfile=  catalogids=  survey=dss  output=14.12.fits  pixels=300  coordinates=Galactic  quicklook=jpg  size=0.1  scaling=log
+14.12=2.4564729E7
+# 14.13:   position=289.95087909728574,64.35997524900246  catalog=rosmaster  projection=Tan  pixels=300  scaling=log  size=0.1  catalogcolumns=instrument,exposure  catalogfields=  catalogids=  catalogfile=mycat.file  survey=dss  output=14.13.fits  quicklook=jpg  coordinates=Galactic
+14.13=1.1895243E7
+
+# 10.6:   position=180.,0.  projection=Car  survey=heao1a  output=10.6.fits  pixels=200,100  quicklook=TIFF  coordinates=galactic  sampler=NN  size=360,180 
+10.6=6.015954E7
+
+                    
+# Added 3/11/2014 (Mellinger fix, wrong position CDF-S, apparent graphics issue)
+    
+
+# 1.3.12:   position=0.,0.  projection=Car  survey=mell-r  pixels=300  output=1.3.12.fits  coordinates=galactic  size=5
+1.3.12=1.3464279E7
+# 1.3.13:   position=0.,0.  projection=Car  survey=mell-g  output=1.3.13.fits  pixels=300  coordinates=galactic  size=5
+1.3.13=1.361031E7
+# 1.3.14:   position=0.,0.  projection=Car  survey=mell-b  pixels=300  output=1.3.14.fits  coordinates=galactic  size=5
+1.3.14=1.2675017E7
+
+# 1.11.1:   position=53.16222,-27.78932  projection=Tan  survey=GOODS: VLT VIMOS U  pixels=400  output=1.11.1.fits  size=0.01
+1.11.1=617.2131704240035
+# 1.11.2:   position=53.16222,-27.78932  projection=Tan  survey=GOODS: VLT VIMOS R  pixels=400  output=1.11.2.fits  size=0.01
+1.11.2=3942.6031956406114
+# 1.11.3:   position=53.16222,-27.78932  projection=Tan  survey=GOODS: VLT ISAAC J  pixels=400  output=1.11.3.fits  size=0.01
+1.11.3=336.62332352763525
+# 1.11.4:   position=53.16222,-27.78932  projection=Tan  survey=GOODS: VLT ISAAC H  pixels=400  output=1.11.4.fits  size=0.01
+1.11.4=27.807749790920866
+# 1.11.5:   position=53.16222,-27.78932  projection=Tan  survey=GOODS: VLT ISAAC Ks  pixels=400  output=1.11.5.fits  size=0.01
+1.11.5=688.9764702124928
+# 1.11.6:   position=53.16222,-27.78932  projection=Tan  survey=HUDF: VLT ISAAC Ks  pixels=400  output=1.11.6.fits  size=0.01
+1.11.6=1181.5278123961793
+# 1.11.7:   position=53.16222,-27.78932  projection=Tan  survey=CDFS: LESS  pixels=400  output=1.11.7.fits  size=0.01
+1.11.7=-61.13683646953723
+
+# 18.1:   position=0.,0.  catalog=rosmaster  gridlabels=  catalogids=  grid=  survey=iras100  output=18.1.fits  pixels=500  quicklook=JPEG  coordinates=G  size=10
+18.1=5.5082757E7
+# 18.2:   position=0.,0.  plotscale=2  catalog=rosmaster  gridlabels=  catalogids=  grid=  survey=iras100  output=18.2.fits  pixels=500  quicklook=JPEG  coordinates=G  size=10
+18.2=5.533164E7
+# 18.3:   position=0.,0.  catalog=rosmaster  pixels=500  size=10  plotscale=3  gridlabels=  catalogids=  survey=iras100  grid=  output=18.3.fits  coordinates=G  quicklook=JPEG  plotfontsize=20
+18.3=5.8841532E7
+# 18.4:   position=0.,0.  plotcolor=green  catalog=rosmaster  pixels=500  size=10  plotscale=3  gridlabels=  lut=grays  catalogids=  survey=iras100  grid=  output=18.4.fits  coordinates=G  quicklook=JPEG  plotfontsize=20
+18.4=5.1506159E7
+# 18.5:   position=0.,0.  plotcolor=green  catalog=rosmaster  pixels=500  size=10  plotscale=3  gridlabels=  lut=fire  catalogids=  survey=iras100  grid=  output=18.5.fits  coordinates=G  quicklook=JPEG  plotfontsize=20
+18.5=6.8482571E7
+# 18.6:   position=0.,0.  plotcolor=green  catalog=rosmaster  pixels=500  size=10  draw=50 50,-50 -50,,50 -50,-50 50  plotscale=3  gridlabels=  lut=fire  catalogids=  survey=iras100  grid=  output=18.6.fits  coordinates=G  quicklook=JPEG  plotfontsize=20
+18.6=6.8770181E7
+# 18.7:   position=0.,0.  plotcolor=green  catalog=rosmaster  pixels=500  size=10  plotscale=3  drawfile=plot1.drw  gridlabels=  lut=fire  catalogids=  survey=iras100  grid=  output=18.7.fits  coordinates=G  quicklook=JPEG  plotfontsize=20
+18.7=6.8819314E7
+# 18.8:   position=0.,0.  plotcolor=green  catalog=rosmaster  drawangle=45  pixels=500  size=10  plotscale=3  drawfile=plot1.drw  gridlabels=  lut=fire  catalogids=  survey=iras100  grid=  output=18.8.fits  coordinates=G  quicklook=JPEG  plotfontsize=20
+18.8=6.8920685E7
+# 18.9:   position=0.,0.  plotcolor=green  catalog=rosmaster  pixels=500  size=10  plotscale=3  drawfile=plot2.drw  gridlabels=  lut=fire  catalogids=  survey=iras100  grid=  output=18.9.fits  coordinates=G  quicklook=JPEG  plotfontsize=20
+18.9=6.8626264E7
+

@@ -1,0 +1,39 @@
+<Survey>
+  <ShortName>HUDFISAAC, HUDF: VLT ISAAC Ks</ShortName>
+<Name>VLT ISAAC Ks Observations of the Southern Hubble Ultradeep Field</Name>
+<Description>
+    A very deep Ks observation of the Hubble Ultradeep Field.  This observation is
+    approximately 0.6 magnitudes deeper than the GOODS ISAAC Ks image but covers
+    only small fraction of the area.
+</Description>
+<Settings>
+   <Scale>0.0000416666667</Scale>
+</Settings>
+<MetaTable>
+   <Regime> Infrared </Regime>
+    <Frequency> 137 THz </Frequency>
+    <Bandwidth> 125-150 THz </Bandwidth>
+    <Provenance> Data downloaded from VLT archive </Provenance>
+    <Copyright>Data freely available</Copyright>
+    <NSurvey> 1 </NSurvey>
+    <Resolution> 0.3-0.6"</Resolution>
+    <PixelSize>0.15"</PixelSize>
+    <CoordinateSystem>ICRS</CoordinateSystem>
+    <Projection>Gnomonic</Projection>
+    <PixelUnits>ADU/s</PixelUnits>  
+   <Reference> <![CDATA[
+   <a href=http://adsabs.harvard.edu/abs/2010A%26A...511A..50R>Paper</a> and
+   <a href=http://archive.eso.org/cms/eso-data/data-packages/hudf-vlt-isaac-ks-v1-0.html>Web site</a>
+   ]]>
+   </Reference>   
+</MetaTable>
+<FITS>
+SURVEY  = 'VLT ISAAC HUDF Ks'
+</FITS>
+<Images>
+  <ImageFactory>skyview.survey.CachingImageFactory</ImageFactory>
+  <ImageSize> 0.2 </ImageSize>
+  <SpellPrefix>http://skyview.gsfc.nasa.gov/surveys/goods/isaac/</SpellPrefix>
+  <Image>ADP.ISAAC_HUDF_KS_V1.0.fits,ADP.ISAAC_HUDF_KS_V1.0.fits,53.122751,-27.805089,Tan,ICRS,1500,1499,-4.166667e-05,0.000000,0.000000,4.166667e-05,1613.500000,407.500000 53.122751 -27.805089 2009.000000</Image>
+</Images>
+</Survey>

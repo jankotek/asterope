@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SkyView" default="test">
+    <description> The SkyView Virtual Observatory Java implementation </description>
+    
+    <property environment="env" />
+    <property name="proj"     value="skyview" />
+    <property name="ljar"     value="${env.jira}/ljar"  />
+    <property name="fjar"     value="${env.jira}/fjar" />
+    <property name="temp"     value="./skyviewtemp" />
+    <property name="jar"      value="../jar/skyview.jar"    />
+    <property name="browser"  value="firefox"    />
+    
+    <target name="test" depends="tclean,qtest" />
+    
+    <target name="tclean">
+        <delete failonerror="false" >
+	    <fileset dir="${temp}" />
+	</delete>
+    </target>
+    
+    <target name="qtest">
+	<fail unless="env.BZIP_DECOMPRESSOR" message="BZIP_DECOMPRESSOR needs to be set to run SkyView Tests.  You can set it to a random string if you are not testing the SDSS DR8.
+For a full test set it to /usr/bin/bunzip2" />
+	
+	<mkdir dir="${temp}" />
+        <echo message="Making directory: ${temp}" />       
+	
+	<unzip src="${jar}" dest="${temp}">
+	   <patternset>
+	      <include name="skyview/test/comparison.settings" />
+	      <include name="skyview/test/*.drw" />
+	      <include name="skyview/test/*.fits" />
+	   </patternset>
+	   <mapper type="flatten" />
+	</unzip>
+	
+	<echo message="Testing SkyView" />
+        <java fork="true" maxmemory="512M" classname="org.junit.runner.JUnitCore" dir="${temp}">
+	   <sysproperty key="java.awt.headless" value="true" />
+           <classpath>
+	      <pathelement location="." />
+	      <pathelement location="${jar}" />
+	      <pathelement location="${fjar}/junit-4.1.jar" />
+	   </classpath>
+	   
+	   <arg value="skyview.test.NewTester"      />
+	</java>
+     </target>
+
+     <target name="webtest" >
+       	<echo message="Testing SkyView - web tests" />
+        <java classname="skyview.ops.webtests.SkyViewTests" >
+           <classpath>
+              <pathelement location="${fjar}/selenium-server-standalone-2.39.0.jar" />
+              <pathelement location="${jar}" />
+           </classpath>
+           <arg value="${browser}" />
+        </java>
+    </target>
+
+</project>

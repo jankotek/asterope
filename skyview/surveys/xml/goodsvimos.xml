@@ -1,0 +1,67 @@
+<Survey>
+  <ShortName>GOODS VIMOS ${B}, GOODS: VLT VIMOS ${B}</ShortName>
+<Name>Southern GOODS Field: VLT VIMOS Observations, ${B} band</Name>
+<Description>
+    <![CDATA[
+    As part of the Great Observatories Origins Deep Survey (GOODS), 
+deep imaging in the Chandra Deep Field South (CDF-S) has been carried out, 
+using the VIMOS instrument mounted at the Melipal Unit Telescope of 
+the VLT at ESO's Cerro Paranal Observatory, Chile.
+<p>
+This data release contains the coadded images in U band from the ESO large programme 
+168.A-0485 (P.I. C. Cesarsky) which have been obtained in 
+service mode observations between August 2004 and fall 2006.
+The 1-sigma depth for VIMOS U band in the area covered by the GOODS-ACS observations 
+is ~30 AB (within an aperture of 1" radius, ranging from 29.5 and 30.2 AB). 
+The PSF of the VIMOS U band mosaic is ~0.8" FWHM, but varies over the field.
+<p> 
+Also included in this data release is a coadded image in R band obtained from 
+data retrieved from the ESO archive. Due to the different observing strategies 
+adopted in the programmes the resulting coverage of the GOODS-ACS 
+area is more complex than for the U band. 
+The depth of the VIMOS R band mosaic over the ACS area ranges from ~28 AB to 29 AB 
+(1-sigma, 1" aperture radius). 
+The PSF of the VIMOS R band mosaic is ~0".7 FWHM and varies over the field.
+[Adapted from reference web site.]
+]]>
+</Description>
+<Settings>
+   <Scale>0.00005694444</Scale>
+</Settings>
+<MetaTable>
+    <Regime> ${Regime} </Regime>
+    <Frequency> ${F} THz </Frequency>
+    <Bandwidth> ${BW} THz </Bandwidth>
+    <Provenance> Data downloaded from VLT archive </Provenance>
+    <Copyright>       
+Data freely available from ESO archive.
+When using data products provided in this release, acknowledgement should 
+be given in the text to the ESO/GOODS programme, 
+referring to the publication Nonino et al. 2009. 
+In addition, please also use the following statement in your articles when using these data:
+"Based on observations made with ESO Telescopes at the La Silla or Paranal Observatories under programme number 168.A-0485."
+    </Copyright>
+    <NSurvey> 2 </NSurvey>
+    <Resolution> 0.7-0.8"</Resolution>
+    <PixelSize>0.2"</PixelSize>
+    <CoordinateSystem>ICRS</CoordinateSystem>
+    <Projection>Gnomonic</Projection>
+    <PixelUnits>ADU/s</PixelUnits>  
+    <Reference><![CDATA[
+<a href=http://adsabs.harvard.edu/abs/2009A%26A...494..443P>Paper</a> and
+<a href=http://archive.eso.org/cms/eso-data/data-packages/goods-vimos-imaging-data-release-version-1-0.html>web site</a>.>
+]]>    
+    </Reference>
+</MetaTable>
+<FITS>
+SURVEY  = 'GOODS VIMOS ${B}'
+</FITS>
+<Images>
+  <ImageFactory>skyview.survey.CachingImageFactory</ImageFactory>
+  <SpellPrefix>http://skyview.gsfc.nasa.gov/surveys/goods/vimos/</SpellPrefix>
+  <ImageSize> 0.2 </ImageSize>
+  <!-- Note use of R/U variables to select rows.  Only one of these will be defined -->
+  <Image>GOODS_VIMOS_MOSAIC_${R}_V1.0.fits,GOODS_VIMOS_MOSAIC_R_V1.0.fits,53.100000,-27.810000,Tan,ICRS,7168,7168,-5.694444e-05,0,0,5.694444e-05,4864,2816 53.100000 -27.810000 2009.000000</Image>
+  <Image>GOODS_VIMOS_MOSAIC_${U}_V1.0.fits,GOODS_VIMOS_MOSAIC_U_V1.0.fits,53.100000,-27.810000,Tan,ICRS,7450,10710,-5.694444e-05,0,0,5.694444e-05,3995,5055 53.100000 -27.810000 2009.000000</Image>
+</Images>
+</Survey>

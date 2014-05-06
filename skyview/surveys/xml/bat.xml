@@ -1,0 +1,130 @@
+<Survey>
+  <ShortName>BAT-${T}-${b}, BAT ${T} ${b}, BAT ${T} ${R}</ShortName>
+  <Name>Swift BAT 70 Month All-Sky Survey: ${R} keV: ${T}</Name>  
+  <Description>
+   <![CDATA[
+This BAT Hard X-ray Survey data is the 70-month survey product of the BAT instrument on
+the Swift observatory.  Swift/BAT is a wide field-of-view (70x100
+degrees) hard X-ray imager consisting of a coded mask and a large array
+of CdZnTe detectors (with an effective area of ~ 5000 cm<sup>2</sup>).
+<p>
+BAT is sensitive in the energy range 14-195 keV.  The data are divided
+into 8 energy bands
+
+<table border>
+<tr><th>Band<th>Energy (keV)<th>Frequency (EHz) </tr>
+<tr><td>1<td> 14-20  <td>  3.38-4.84</tr>
+<tr><td>2<td> 20-24  <td>  4.84-5.80</tr>
+<tr><td>3<td> 24-35  <td>  5.80-8.46</tr>
+<tr><td>4<td> 35-50  <td>  8.46-12.1</tr>
+<tr><td>5<td> 50-75  <td> 12.1-18.1</tr>
+<tr><td>6<td> 75-100 <td> 18.1-24.2</tr>
+<tr><td>7<td> 100-150<td> 24.2-36.3</tr>
+<tr><td>8<td> 150-195<td> 36.3-47.2</tr>
+<tr><td>Sum (SNR only)<td>14-195<td> 3.38-47.2</tr>
+</table>
+
+Each band is represented as as two separate surveys, a signal-to-noise (SNR) map and a flux map.
+(e.g., BAT-snr-1 or BAT SNR 1 or BAT SNR 14-20, or BAT-Flux-1, ...).
+An additional summed survey, BAT-SNR-SUM or BAT SNR SUM or BAT SNR 14-195, is also available, but there
+is no summed flux survey.  In our Web interface only the SNR surveys are 
+shown in the Web form.  Users can get flux maps corresponding to a given SNR image
+from the results pages.  The batch interfaces may directly query any of the surveys since
+the user chooses the names explicitly rather than from a selection box.
+<p>
+The values displayed in the significance
+maps are the local signal to noise ratio in each pixel.  The noise in
+these coded-mask images follows a Gaussian distribution with center at
+zero and a characteristic width (sigma) of 1.0.  The noise is
+calculated locally for each pixel by measuring the RMS value of all
+pixel values in an annulus around each pixel and hence includs both
+statistical and systematic components. Known sources are excluded from
+the annuli.
+<p>
+The signal in each pixel is taken from the flux maps.
+<p>
+The flux values are in the native BAT survey units of
+counts/sec/detector.  The detector is an individual piece of CZT in
+the BAT array with an area of 1.6 x 10<sup>-7</sup>m<sup>2</sub>.
+<p>
+While the Swift mission is primarily designed to follow gamma-ray bursts, 
+the random distribution of bursts in the sky means that these survey's sky coverage
+is relatively uniform with the exposure at any point varying between about 6 to 16 megaseconds.
+The survey limits for source detection are about 10<sup>-11</sup> ergs/s/cm<sup>2</sup>
+over about half the sky and 1.3x10<sup>-11</sup> ergs/s/cm<sup>2</sup> over 90%.
+<p>
+These data replace the 9-month BAT datasets which we have retired.  If you wish access to the older data please let us know.
+Note that for the 9-month data we provided access through the web page to the flux data
+and gave links to the signal-to-noise maps.  Since the existence of sources is most
+easily seen in the SNR maps, we decided to invert that for this release.  
+<p>
+For the 8 band data, the source data were provided by the BAT team as 6 FITS files.  Each of these contained the 8 bands in separate image
+extensions for a region centered at l=0,b=+/-90 or l=0,90,180,270,b=0, the centers of 6 cubic facets.  However these data are not the classical
+cube-faced projections, e.g., as used in COBE data.  The data on the facets overlap, so that this is just a convenient way to tile the sky.
+<i>SkyView</i> separated each of the FITS image extensions into a separate file, but no other modifications were made to the data.  The summed image was
+provided as six separate files.
+    ]]>   
+  </Description>
+
+  <Settings>
+    <Scale> 0.083333333</Scale>
+  </Settings>
+  
+  <!-- The MetaTable includes a set of standard metadata about the survey -->
+  <MetaTable>
+    <Provenance> 
+    <![CDATA[
+      NASA BAT Team
+    ]]>
+    </Provenance> 
+    <Copyright>
+    <![CDATA[Public domain
+    ]]>
+    </Copyright>
+    <Regime>      X-ray    </Regime>
+    <NSurvey>     9       </NSurvey>
+    <Frequency>   ${F} EHz </Frequency>
+    <Bandpass>    ${FR} EHz </Bandpass>
+    <Coverage>    All-sky  </Coverage>
+    <PixelScale>  2.8'     </PixelScale>
+    <PixelUnits>  ${U}     </PixelUnits>
+    <Resolution>  20'      </Resolution>
+    <Coordinates> Galactic    </Coordinates>
+    <Equinox>                 </Equinox> 
+    <Projection>  Zenithal Equal Area    </Projection>>
+    <Epoch>       2005-2010   </Epoch>
+    <Reference>
+<![CDATA[
+   <a href=http://arxiv.org/abs/1212.3336> The 70-Month Swift-BAT Hard X-ray Survey,
+   (Baumgartner et al 2013)</a>
+   ]]>
+    </Reference>
+  </MetaTable>
+  <OnlineText>
+<![CDATA[
+ <p><strong>Additional Data: <br/><!--${D}--><a href="runquery.pl?survey=bat-flux-${b}&lon=$reqxpos&lat=$reqypos&sampler=$sampler&projection=$_projection&size=$size&pixels=$pixels&coordinates=$_coordinatesystem"> Corresponding flux map </a>.<br/>
+ ]]>
+  <!--${D}-->
+  </OnlineText>
+    -->
+  <FITS>
+<![CDATA[
+SURVEY  = 'BAT ${b} ${T}'
+INSTRUME= 'Swift/BAT'
+COMMENT       70 Month survey
+]]>
+  </FITS>
+    <Images>
+        <ImageFactory> skyview.survey.CachingImageFactory</ImageFactory>
+        <ImageSize>    180 </ImageSize>
+	<SurveyCoordinateSystem> G </SurveyCoordinateSystem>
+	<SpellPrefix>  http://skyview.gsfc.nasa.gov/surveys/newbat/</SpellPrefix>
+        <SpellSuffix> ,Zea,G,1998,1998,0.04666666,0.0466666 </SpellSuffix>
+        <Image>bat70${T}_${b}-0.fits,bat70${T}_${b}-0.fits,90.,0.     90.   0.  2010 </Image>
+        <Image>bat70${T}_${b}-1.fits,bat70${T}_${b}-1.fits,0.,0.       0.   0.  2010 </Image>
+        <Image>bat70${T}_${b}-2.fits,bat70${T}_${b}-2.fits,270.,0.   270.   0.  2010 </Image>
+        <Image>bat70${T}_${b}-3.fits,bat70${T}_${b}-3.fits,180.,0.   180.   0.  2010 </Image>
+        <Image>bat70${T}_${b}-4.fits,bat70${T}_${b}-4.fits,0.,90.      0.  90.  2010 </Image>
+        <Image>bat70${T}_${b}-5.fits,bat70${T}_${b}-5.fits,0.,-90.     0. -90.  2010 </Image>
+    </Images>
+</Survey>

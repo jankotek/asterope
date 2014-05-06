@@ -1,0 +1,57 @@
+<Survey>
+  <ShortName>CDFS LESS, CDFS: LESS</ShortName>
+<Name>LABOCA Extended Chandra Deep Field South Submillimetre Survey</Name>
+<Description>
+    <![CDATA[
+The LABOCA Extended Chandra Deep Field South (ECDFS) Submillimetre Survey (LESS) 
+is a public legacy survey of the ECDFS at 870 μm using the LABOCA camera 
+(Siringo et al. 2009) on the APEX telescope. 
+<p>
+The LABOCA data presented here were obtained between 2007 May and 2008 November
+in excellent conditions using time from both ESO and Max Planck allocations.
+The mapping pattern was designed to uniformly cover the 30'x30' extent of the ECDFS, 
+centered on 03:32:29.0, -27:48:47.0 (J2000).
+The project used a total of 310 hrs of observations to achieve a beam-smoothed noise of 
+1.2 mJy/beam over 900 sq. arcmin (and <1.6mJy/beam over 1260 sq. arcmin).
+The flux calibration of the map came from observations of Mars, Uranus and Neptune 
+(as well as secondary calibrators) and is accurate to within 8.5%.    
+]]>
+</Description>
+<Settings>
+   <Scale> 1.68725801995E-03 </Scale>
+</Settings>
+<MetaTable>
+    <Regime> Radio </Regime>
+    <Frequency> 345 GHz </Frequency>
+    <Bandwidth> 315-375 GHz </Bandwidth>
+    <Provenance> Data downloaded from ESO archive </Provenance>
+    <Copyright>       
+Data freely available from ESO archive.
+When using data products provided in this release, 
+it is requested that authors refer to the publication Weiss et al. 2009, ApJ, 707, 1201 
+In addition, please also use the following statement in articles using these data:
+"Based on observations collected at the European Organisation for Astronomical Research in the Southern Hemisphere, Chile, under programmes 078.F-9028(A), 079.F-9500(A), 080.A-3023(A), and 081.F-9500(A)." 
+</Copyright>
+    <NSurvey> 1 </NSurvey>
+    <Resolution> 19.2"</Resolution>
+    <PixelSize>6"</PixelSize>
+    <CoordinateSystem>J2000</CoordinateSystem>
+    <Projection>Gnomonic</Projection>
+    <PixelUnits>Jy/beam</PixelUnits>
+    <Epoch>2007-07-12/2008-10-04</Epoch>
+    <Reference><![CDATA[
+<a href=http://adsabs.harvard.edu/abs/2009ApJ...707.1201W>Paper</a> and
+<a href=http://archive.eso.org/cms/eso-data/data-packages/less-data-release-v1-0.html>web site</a>.>
+]]>    
+    </Reference>
+</MetaTable>
+<FITS>
+SURVEY  = 'CDFS LESS'
+</FITS>
+<Images>
+  <ImageFactory>skyview.survey.CachingImageFactory</ImageFactory>
+  <SpellPrefix>http://skyview.gsfc.nasa.gov/surveys/goods/less/</SpellPrefix>
+  <ImageSize> 0.8 </ImageSize>
+  <Image>ADP.LESS_LABOCA_ECDFS_FLUX_V1.0.fits,ADP.LESS_LABOCA_ECDFS_FLUX_V1.0.fits,53.120833,-27.813055,Tan,J2000,447,476,0.001687258,0.001687258 53.120833 -27.813055 2009.</Image>
+</Images>
+</Survey>

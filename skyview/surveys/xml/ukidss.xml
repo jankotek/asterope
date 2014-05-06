@@ -1,0 +1,128 @@
+<Survey>
+  <!-- The Short name is used when the survey is part of a list -->
+  <ShortName>UKIDSS-${b},UKIDSS${b},UKIDSS ${b}</ShortName>
+  
+  <!-- This is a more complete descriptive name -->
+  <Name>UKIRT Infrared Deep Survey ${b}-band</Name>
+  
+  <!-- A text description of the survey.  This may include HTML and
+       if so would normally be included in a CDATA element. -->
+  <Description>
+   <![CDATA[
+   The UKIDSS survey is the next generation infrared survey, a successor
+   to 2MASS.  It will ultimately cover 7000 square degrees in the 
+   northern sky at both high and low Galactic latitudes and goes about
+   three magnitudes deeper than 2MASS in the coverage area.  Most data is
+   taken in the J, H and K bands.  A Y band is available in some regions.
+   <p>
+   UKIDSS is comprised of several distinct surveys in different regions of the
+   sky.  Of primary interest to <i>SkyView</i> users (since they have the largest
+   sky coverage) are the Large Area Survey, the Galactic Plane Survey, and the
+   Galactic Clusters Survey.  There are deep and ultadeep surveys which cover
+   much smaller fractions of the sky.  The planned coverage for the UKIDSS
+   surveys may be seen at the <a href='http://www.ukidss.org/surveys/surveys.html'>
+   UKIDSS survey page</a>.  All UKIDSS data products are published by the Wide-Field
+   Astronomy Unit (WFAU) at the University of Edinburgh through the
+   <a href=http://surveys.roe.ac.uk/wsa>WFCAM Science Archive (WSA)</a> which includes
+   more detailed coverage information for each data release.
+   <p>
+   
+   
+   <i>SkyView</i> currently uses the DR8 data release except for the Galactic 
+   Plane Survey region where the DR7 is the latest public release.  Many thanks to
+   the WSA team at WFAU for providing an interface to make all the latest
+   data easily accessed.  Note that coverage is not uniform across the different bands so
+   that at a given point there might be H and K band data, but nothing in the J band.
+    ]]>
+  </Description>
+  
+  <!-- These settings are used where the user may not have made an explicit selection
+       and where no system defaults exist.
+    -->
+  <Settings>
+    <!-- The scale of this image -->
+    <Scale> 0.0001114 </Scale>
+    <Scaling> Loglog </Scaling>
+  </Settings>
+  
+  <!-- The MetaTable includes a set of standard metadata about the survey -->
+  <MetaTable>
+    <Provenance>UKIDSS Project</Provenance>
+    <Copyright>
+    <![CDATA[ The UKIDSS team requests that text similar
+      to the following be included when UKIDSS data is used: <br>
+      The UKIDSS project is defined in <a href='http://adsabs.harvard.edu/abs/2007MNRAS.379.1599L'>
+Lawrence et al (2007)</a>. 
+      UKIDSS uses the UKIRT Wide Field Camera (WFCAM; 
+      <a href='http://adsabs.harvard.edu/abs/2007A%26A...467..777C
+Casali et al, 2007</a>). 
+      The photometric system is described in <a href='http://adsabs.harvard.edu/abs/2006MNRAS.367..454H'>
+Hewett et al (2006)</a>, 
+      and the calibration is described in <a href='http://adsabs.harvard.edu/abs/2008arXiv0812.3081H'>
+Hodgkin et al. (2009)</a>. 
+      The pipeline processing and science 
+      archive are described in Irwin et al (2009, in prep) 
+      and <a href='http://adsabs.harvard.edu/abs/2008MNRAS.384..637H'>
+Hambly et al (2008)</a>.
+      ]]>
+    </Copyright>
+    <Regime>      Infrared </Regime>
+    <NSurvey>     4 </NSurvey>
+    <Frequency>   ${f} THz </Frequency>
+    <Bandpass>    ${fb} THz </Bandpass>
+    <Coverage>    0.17 (7000 square degrees </Coverage>
+    <PixelScale>  0.4" </PixelScale>
+    <PixelUnits>   </PixelUnits>
+    <Resolution>  1"   </Resolution>
+    <Coordinates> Equatorial </Coordinates>
+    <Projection>  Zenithal Polynomial </Projection>>
+    <Epoch>       2005-2012 </Epoch>
+    <Reference><![CDATA[ See the <a http://www.ukidss.org> UKIDSS web site or
+      <a href='http://adsabs.harvard.edu/abs/2007MNRAS.379.1599L'>
+     Lawrence et al (2007)</a>. 
+    ]]>    
+    </Reference>
+</MetaTable>
+  
+  <OnlineText/>
+
+  <FITS>
+<![CDATA[
+SURVEY  = 'UKIDSS-${b}'
+COMMENT Release DR8 except in Galactic Plane Survey which is DR7.
+]]>
+  </FITS>
+  <Images>
+    <SiapURL>
+<![CDATA[
+http://wfaudata.roe.ac.uk/ukidssdr8-siap/?
+]]>
+
+    </SiapURL>
+    
+    <SiapProjection>  Zpn   </SiapProjection>
+    
+    <!-- Default values to be used in creating spells, since
+         the SIA output does not give these.  The value of
+         PROJP3 seems to vary from about -45 to -60.  We only
+         use these estimated values in deciding which image to use:
+         we use the values in the data files when doing the resampling.
+      -->
+    <_PROJP1>    1  </_PROJP1>
+    <_PROJP3>  -50 </_PROJP3>
+    <SiapCoordinates> J2000 </SiapCoordinates>
+    
+    <SiapFilterValue> ${b}        </SiapFilterValue>
+    <SiapFilterField> Bandpass </SiapFilterField>
+    
+    <ImageFactory>
+         skyview.survey.CachingImageFactory
+    </ImageFactory>
+    
+    <!-- The image size gives the minimum dimension of an image. -->
+    <ImageSize> 0.25 </ImageSize>
+    
+    <ImageGenerator>skyview.survey.SIAPGenerator</ImageGenerator>
+    
+  </Images>
+</Survey>

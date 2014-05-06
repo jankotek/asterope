@@ -1,0 +1,65 @@
+<Survey>
+  <ShortName>GOODS ISAAC ${B}, GOODS: VLT ISAAC ${B}</ShortName>
+<Name>Southern GOODS Field: VLT ISAAC Observations, ${B} band</Name>
+<Description>
+    <![CDATA[
+    As part of the Great Observatories Origins Deep Survey (GOODS), 
+    near-infrared imaging observations of the Chandra Deep Field South (CDF-S) 
+    were carried out in J, H, Ks bands, using the ISAAC instrument mounted at 
+    the Antu Unit Telescope of the VLT at ESO's Cerro Paranal Observatory, Chile.
+<p>
+These data were obtained as part of the ESO Large Programme 168.A-0485 (PI: C. Cesarsky). 
+Data covering four ISAAC fields in J and Ks bands were also drawn from the ESO programmes 64.O-0643, 66.A-0572 and 68.A-0544 (PI: E.Giallongo),
+which were part of the previous data releases. 
+<p>
+This data release  covers 172.4, 159.6, and 173.1 arcmin2 of the GOODS/CDF-S 
+region in J, H and Ks respectively. More than 50% of the images reach a 5-sigma depth 
+for point sources of at least 25.2 mag (J), 24.7 mag (H and Ks) in the AB system ("median depth").
+<p>
+This final GOODS/ISAAC data release accumulates observational data which have 
+been acquired in 12814 science integrations between October 1999 and January 2007 
+totaling 1.3 Msec integration time. 
+[Above adapted from reference Web site.]
+<p>
+<i> SkyView<i> uses the mosaic files provided in this delivery.  The Version 1.5 mosaic
+is used for the KS band.
+]]>
+
+</Description>
+<Settings>
+   <Scale>0.0000416666667</Scale>
+</Settings>
+<MetaTable>
+    <Regime> Infrared </Regime>
+    <Frequency> ${F} THz </Frequency>
+    <Bandwidth> ${BW} THz </Bandwidth>
+    <Provenance> Data downloaded from VLT archive </Provenance>
+    <Copyright>Data freely available</Copyright>
+    <NSurvey> 3 </NSurvey>
+    <Resolution> 0.3-0.6"</Resolution>
+    <PixelSize>0.15"</PixelSize>
+    <CoordinateSystem>ICRS</CoordinateSystem>
+    <Projection>Gnomonic</Projection>
+    <PixelUnits>ADU/s</PixelUnits>  
+    <Reference><![CDATA[
+<a href=http://adsabs.harvard.edu/abs/2010A%26A...511A..50R>Paper</a> and
+<a href=http://archive.eso.org/cms/eso-data/data-packages/goods-isaac-final-data-release-version-2-0.html>web site</a>.>
+]]>    
+    </Reference>
+</MetaTable>
+<FITS>
+SURVEY  = 'GOODS ISAAC ${B}'
+</FITS>
+<Images>
+  <ImageFactory>skyview.survey.CachingImageFactory</ImageFactory>
+  <ImageSize> 0.2 </ImageSize>
+  <SpellPrefix>http://skyview.gsfc.nasa.gov/surveys/goods/isaac/</SpellPrefix>
+<![CDATA[
+              nX     nY     cX     cY      Version
+       H   5645    6159     2904.5 3232.5  2.0
+       J   5635    7130     2901.5 3199.5  2.0       
+       KS  5643    6130     2903.5 3209.5  1.5
+  ]]>
+  <Image>GOODS_ISAAC_MOSAIC_${B}_V${V}.fits,GOODS_ISAAC_MOSAIC_${B}_V${V}.fits,53.122751,-27.805089,Tan,ICRS,${NX},${NY},-4.166667e-05,0.,0.,4.166667e-05,${CX},${CY} 53.122751 -27.805089 2009.000000</Image>
+</Images>
+</Survey>

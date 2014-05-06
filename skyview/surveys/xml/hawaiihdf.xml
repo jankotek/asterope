@@ -1,0 +1,54 @@
+<Survey>
+    <ShortName>Hawaii HDF ${B}, Hawaii: HDF ${B}</ShortName>
+    <Name> The Hawaii Hubble Deep Field North: Band ${B}</Name>
+    <Description><![CDATA[
+        The Hawaii-HDF-N is an intensive multi-color imaging survey of 0.2 sq. 
+        degrees centered on the HDF-N. Data were collected on the NOAO 4m Mayall telescope, 
+        the National Astronomical Observatory of Japan 8.2m Subaru telescope and the 
+        University of Hawaii 2.2m telescope. 
+        Deep U, B, V, R, I, and z' data were obtained over the whole field and deep HK' data over 
+        the Chandra Deep Field North. Details are available in the references.
+        [Adapted from reference web site.]
+        
+        <P>
+        Two different images are given in the V band (V0201 and V0401) from observations
+        separated by about a month that had substantial differences in seeing.
+        ]]>
+</Description>
+<Settings>
+        <Scale> 0.0000833333</Scale>
+</Settings>
+<MetaTable>
+        <Provenance> Data downloaded from the reference web site.  A formatting
+        error in the FITS files was corrected.
+        </Provenance>
+        <Copyright> Public Domain.  Users are requested to include a reference to
+        Capak, et al. 2004 when using these data.
+        </Copyright>
+        <Regime> ${Regime} </Regime>
+        <NSurvey> 8 </NSurvey>
+        <Frequency>${F} THz</Frequency>
+        <Bandpass>${BW} THz</Bandpass>
+        <Coverage>0.000005</Coverage>
+        <Resolution> 0.67-1.26" </Resolution>
+        <PixelScale>0.3"</PixelScale>
+        <CoordinateSystem>ICRS </CoordinateSystem>
+        <Projection>Gnomonic</Projection>
+        <Epoch>1999/2002</Epoch>
+        <Reference><![CDATA[
+     <a href=http://adsabs.harvard.edu/abs/2004AJ....127..180C>2004AJ....127..180C</a>
+            or the <a href=http://www.astro.caltech.edu/~capak/hdf/> web site</a>.
+        ]]>
+        </Reference>
+</MetaTable>
+
+<FITS>
+SURVEY  = 'HAWAII HDF ${B}'
+</FITS>
+<Images>
+    <ImageSize> 0.2 </ImageSize>
+    <SpellPrefix>http://skyview.gsfc.nasa.gov/surveys/goods/hawaii/</SpellPrefix>
+    <ImageFactory>skyview.survey.CachingImageFactory</ImageFactory>
+    <Image>HDF.${B}.fits.corr.gz,HDF.${B}.fits.corr.gz,189.228621,62.238661,Tan,ICRS,8485,8375,-0.00008333333,0,0,0.00008333333,4535.5,5065.5  189.228621 62.238661 2001</Image>
+</Images>
+</Survey>

@@ -1,0 +1,78 @@
+<Survey>
+  <ShortName>Planck${f},Planck ${f},Planck-${f}</ShortName>
+  
+  <Name>Planck ${f} GHz Survey</Name>
+  
+  <Description>
+<![CDATA[
+   Planck is ESA's third generation space based cosmic microwave background 
+   experiment, operating at nine frequencies between 30 and 857 GHz and was
+   launched May 2009. Planck provides all-sky survey data at all nine
+   frequencies with higher resolution at the 6 higher frequencies.
+   It provides substantially higher resolution and sensitivity 
+   than WMAP.  Planck orbits in the L2 Lagrange point.
+
+  These data come from Release 1 of the Planck mission.
+  
+  <p>
+  The original data are stored in HEALPix pixels.  SkyView treats HEALPix as a standard
+  projection but assumes that the HEALPix data is in a projection plane with a rotation of -45 degrees.
+  The rotation transforms the HEALPix pixels from diamonds to squares so that the boundaries of the
+  pixels are treated properly.  The special HealPixImage class is used so that SkyView can use
+  the HEALPix FITS files directly.  The HealPixImage simulates a rectangular image but
+  translates the pixels from that image to the nested HEALPix structure that is used
+  by the HEALPix data.  Users of the SkyView Jar will be able to access this survey through the web
+  but performance may be poor since the FITS files are 150 to 600 MB in size and must be completely
+  read in.  SkyView will not automatically
+  cache these files on the user machine as is done for non-HEALPix surveys.
+  </p>
+  Data from the frequencies of 100 GHz or higher are stored
+  in a HEALPix file with a resolution of approximately 1.7' while lower frequencies are stored with
+  half that resolution, approximately 3.4'.
+  ]]>
+  
+  </Description>
+  <Settings>
+    <Scale> 0.03 </Scale>
+  </Settings>
+  
+  <!-- The MetaTable includes a set of standard metadata about the survey -->
+  <MetaTable>
+    <Provenance>        Planck Team </Provenance>
+    <Copyright>                      </Copyright>
+    <Regime>            Millimeter                    </Regime>
+    <NSurvey>           9                           </NSurvey>
+    <Frequency>         ${f} GHz                      </Frequency>
+    <Bandpass>          ${f} GHz                 </Bandpass>
+    <Coverage>          AllSky                      </Coverage>
+    <PixelScale>        1.7'                        </PixelScale>
+    <PixelUnits>                       </PixelUnits>
+    <Resolution>                   </Resolution>
+    <CoordinateSystem>  Galactic                    </CoordinateSystem>
+    <Projection>        HEALPix                     </Projection>
+    <Epoch>             2009-2012                   </Epoch>
+    <Reference>  
+      <![CDATA[
+        <a href=http://planck.caltech.edu/publications2013Results.html>Planck Release 1 results</a>
+      ]]>
+    </Reference>
+  </MetaTable>
+  
+  <OnlineText/>
+
+  <FITS>
+<![CDATA[
+SURVEY  = 'Planck-${f} GHz'
+COMMENT Release 1
+]]>
+  </FITS>
+  
+  <Images>
+    <FilePrefix> http://skyview.gsfc.nasa.gov/surveys/planck/ </FilePrefix>
+    <ImageFactory>
+         skyview.survey.HealPixImageFactory
+    </ImageFactory>
+    <ImageSize> 360 </ImageSize>
+    <Image> ${R}FI_SkyMap_${f}_${p}_R1.10_nominal.fits 135. 0. 2010</Image>
+  </Images>
+</Survey>

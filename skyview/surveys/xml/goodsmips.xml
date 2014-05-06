@@ -1,0 +1,40 @@
+<Survey>
+<ShortName>GOODSMIPS, GOODS MIPS, GOODS: Spitzer MIPS, GOODS: Spitzer MIPS 24</ShortName>
+<Name> Spitzer MIPS GOODS 24 Micron Data </Name>
+<Description>Spitzer MIPS observations of the GOODS North and South fields in the 
+    24 micron channel.
+</Description>
+<Settings>
+   <Scale>0.00033333333</Scale>
+</Settings>
+<MetaTable>
+    <Provenance>IRSA, GOODS team </Provenance>
+    <Copyright> Public domain </Copyright>
+    <Regime> Infrared </Regime>
+    <NSurvey> 1 </NSurvey>
+    <Frequency>12.5 THz (24 microns)</Frequency>
+    <Bandpass> 10.2-14.7 THz</Bandpass>
+    <Coverage> GOODS regions, 0.01% of sky</Coverage>
+    <PixelScale>1.2"</PixelScale>
+    <PixelUnits>DN/s</PixelUnits>   
+    <Resolution>5" </Resolution>
+    <CoordinateSystem>ICRS </CoordinateSystem>
+    <Projection> Gnomonic </Projection>
+    <Epoch> 2004-5/2004-8</Epoch>
+    <Reference><![CDATA[See <a href=http://irsa.ipac.caltech.edu/data/GOODS/docs/goods_dr3.html>
+    release documentation</a> for data.
+        ]]>
+    </Reference>
+</MetaTable>
+<FITS>
+SURVEY  = 'GOODS: Spitzer MIPS 24 micron'
+</FITS>
+<Images>
+  <ImageFactory>skyview.survey.CachingImageFactory</ImageFactory>
+  <ImageSize> 0.4 </ImageSize>
+  <SpellPrefix>http://skyview.gsfc.nasa.gov/surveys/goods/spitzer/</SpellPrefix>
+  
+  <Image> n_mips_1_s1_v0.36_sci.fits.gz,n_mips_1_s1_v0.36_sci.fits.gz,189.228621,62.238661,Tan,ICRS,1170,1200,0.000333333,0.000333333 189.228621 62.238661 2003 </Image>
+  <Image> s_mips_1_s1_v0.30_sci.fits.gz,s_mips_1_s1_v0.30_sci.fits.gz,53.122751,-27.805089,Tan,ICRS,1110,1200,0.000333333,0.000333333 53.122751 -27.805089 2003 </Image>
+</Images>
+</Survey>
